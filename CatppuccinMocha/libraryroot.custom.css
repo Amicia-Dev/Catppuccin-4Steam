@@ -1,4 +1,85 @@
 /**
- * @description This file styles all main steam windows
- * [Steam, Settings, Properties, Popups, Dialogs, ...]
- */
+* @description This file styles all main steam windows
+* [Steam, Settings, Properties, Popups, Dialogs, ...]
+*/
+
+
+@font-face {
+    font-family: Modenine;
+    src: url(Fonts/Modenine-2OPd.ttf);
+}
+
+/*CSS for steam library tab starts here*/
+
+body {
+    font-family: Modenine;
+    color: #cdd6f4;
+}
+
+/*Line at the top of what's new*/
+._2Dd4T78PcCTUVgOtDGFY5j {
+    background: #f38ba8;
+}
+
+/*What's new field bg colour*/
+._17uEBe5Ri8TMsnfELvs8-N {
+   background-image: linear-gradient(to top, #181825 0%, #1e1e2e 80%);
+   border: dashed #cba6f7 1px;
+   border-radius: 10px;
+   margin: 10px;
+}
+
+/*Recent games backdrop*/
+._2gSXCB6PbOlMxslr8hm6dm {
+    background-image: linear-gradient(to bottom, #11111b 0%, #11111b 20%, #11111b 60%);
+}
+
+/*Recent and all games fields*/
+._3Sb2o_mQ30IDRh0C72QUUu {
+   background-image: linear-gradient(to top, #1e1e2e 0%, #181825  80%);
+   border: dashed #cba6f7 1px;
+   border-radius: 10px;
+   margin: 10px;
+   
+}
+
+/*Recent and all games fields round flyer corners*/
+.WYgDg9NyCcMIVuMyZ_NBC {
+    border-radius: 10px;
+}
+
+
+/*Recent and all games fields extend margins*/
+.V7RuDNUxhxoBRaiGWbk3B {
+    border: solid transparent 1px;
+    padding-top: 15px;
+    margin-bottom: 25px;
+}
+/*Adds border around Recent and all games fields when hovering*/
+.V7RuDNUxhxoBRaiGWbk3B:hover {
+    border: solid #cba6f7 1px;
+}
+
+
+/*User in game on game flyer status line colour*/
+.ingame ._3xUpb5DWXPFNcHHIcv-9pe {
+    background: linear-gradient(to bottom, #a6e3a1 0%, #a6e3a1 30%, #a6e3a1 70%, #a6e3a1 100%);
+}
+
+
+/*Recent games play button bg colour*/
+._3AjoLnMNKxYmNTGTJCLfgs._1_Bo2Ied5s2Od4YKYTOsau:not(._1aml4h4CSJbtrNbX4brUYs) {
+    background: radial-gradient(circle farthest-corner at 50% 50%, #f5c2e7 0%, #cba6f7 100%);
+}
+/*Recent games play button icon colour*/
+._3AjoLnMNKxYmNTGTJCLfgs._1_Bo2Ied5s2Od4YKYTOsau:not(._1aml4h4CSJbtrNbX4brUYs) .SVGIcon_Play {
+    fill: #6c6e92;
+}
+/*Recent games play button bg colour, when hover !!!NOT WORKING AT THE MOMENT, FIX!!!*/
+._3AjoLnMNKxYmNTGTJCLfgs._1_Bo2Ied5s2Od4YKYTOsau:not(._1aml4h4CSJbtrNbX4brUYs):hover {
+    background: radial-gradient(circle farthest-corner at 50% 50%, #f5c2e7d2 0%, #cba6f7d3 100%);
+}
+/*Recent games play button icon colour, when hover */
+._54PuCatl_tYG836TOs4Mv ._3AjoLnMNKxYmNTGTJCLfgs:hover:not(._1aml4h4CSJbtrNbX4brUYs) .SVGIcon_Play {
+    fill: #878abb;
+}

@@ -9,6 +9,11 @@
 }
 
 
+
+/*CSS for the friends list starts here*/
+
+
+
 /*Font for most of friends list*/
 body {
     font-family: Modenine;
@@ -28,11 +33,21 @@ body {
 }
 
 
+/*Online friends name text. This is up here because of application order*/
+.online .nOdcT-MoOaXGePXLyPe0H {
+    color: #94e2d5;
+}
+
+/*Online friends online status text*/
+.online ._2Ri005Wg_uXDTa71kdRbcN, .online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a, .online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:hover, .online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:active, .online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:visited {
+    color: #94e2d5;
+}
+
+
 /*Current user name*/
 .currentUserContainer .nOdcT-MoOaXGePXLyPe0H {
     font-family: Modenine;
     font-size: 20px;
-
     color: #fab387;
 }
 
@@ -44,6 +59,12 @@ body {
 .titleBarContainer .currentUserContainer ._1BbOegz8bYL7iPzgYpOgQI ._2Ri005Wg_uXDTa71kdRbcN {
     color: #fab387;
 }
+
+/*Dropdown arrow next to current user and online friends*/
+:not(.friendInviteContainer) .online .ContextMenuButton .SVGIcon_DownArrowContextMenu {
+    fill: #cdd6f4;
+}
+
 
 /*Top of friends list cosmetic top left fade removed*/
 .statusHeaderGlow {
@@ -99,6 +120,7 @@ body {
 /*All friends list tab color*/
 .activeTab {
     background-color: #11111b;
+    color: #cdd6f4;
 }
 
 /*Add friend icon*/
@@ -120,6 +142,11 @@ body {
     background-color: #45475a;
 }
 
+/*Game being played be people text*/
+.recentChatsGroup .friendGroup .groupName, .friendGroup.taggedGroup .groupName, .friendGroup.gameGroup .groupName {
+    color: #cdd6f4;
+}
+
 /*Ingame friends*/
 .ingame .nOdcT-MoOaXGePXLyPe0H {
     color: #a6e3a1;
@@ -130,6 +157,41 @@ body {
     color: #a6e3a1;
 }
 
+/*Ingame friends curently playing, dropdown arrow*/
+:not(.friendInviteContainer) .ingame .ContextMenuButton .SVGIcon_DownArrowContextMenu {
+    fill: #cdd6f4;
+}
+/*Ingame friends game being played displayed status*/
+.ingame.awayOrSnooze ._2Ri005Wg_uXDTa71kdRbcN, .ingame ._2Ri005Wg_uXDTa71kdRbcN, .ingame ._2Ri005Wg_uXDTa71kdRbcN a, .ingame ._2Ri005Wg_uXDTa71kdRbcN a:hover, .ingame ._2Ri005Wg_uXDTa71kdRbcN a:active, .ingame ._2Ri005Wg_uXDTa71kdRbcN a:visited {
+    color: #a6e3a1;
+}
+
+/*Ingame friends currently playing to Online Friends tab text divider*/
+.FriendsListContent .friendlistListContainer .friendGroup.onlineFriends {
+    border-top: .5px dashed rgb(203 166 247 / 30%)
+}
+
+
+/*Online and offline list divider*/
+.FriendsListContent .friendlistListContainer .friendGroup.offlineFriends {
+    border-top: .5px dashed rgb(203 166 247 / 30%)
+}
+
+
+/*Offline and online friends tab text*/
+.FriendsListContent .friendlistListContainer .friendGroup.onlineFriends .groupName, .FriendsListContent .friendlistListContainer .friendGroup.offlineFriends .groupName {
+    color: #cdd6f4;
+}
+
+/*Offline friends list usernames text*/
+.offline .nOdcT-MoOaXGePXLyPe0H {
+    color: #585b70;
+}
+
+/*Offline friends sort button*/
+.groupHeaderContainer .SortByRecent .SVGIcon_SortBy {
+    stroke: #89b4fa;
+}
 
 /*All friends list bg color*/
 .friendlistListContainer {
@@ -140,6 +202,7 @@ body {
 /*Group chats tab color*/
 .friendsListSectionTitle {
     background-color: #11111b;
+    color: #cdd6f4;
 }
 
 /*Create group chat icon*/
@@ -156,4 +219,253 @@ body {
 /*Footer*/
 .friendListFooter {
     background-color: #181825;
+}
+
+
+
+
+
+
+
+/*CSS for the actual chat window starts here*/
+
+
+/*Top header container colour*/
+.titleBarContainer.ChatTabs {
+    background-color: #1e1e2e;
+}
+
+/*Chat tabs container position*/
+.chatTabSetContainer.inclient {
+    padding-top: 20px;
+}
+/*Chat tabs size*/
+._2XZq-_f6npaQdAgeRzKIkz {
+    height: 46px;
+}
+
+/*Currently selected chat tab colour*/
+._2XZq-_f6npaQdAgeRzKIkz.Yd-DsWkYiFiYwpci--Yk_ {
+    background-color: #11111b;
+}
+
+/*Chat tabs to actual chat divider*/
+.chatWindow .chatHeader {
+    background: linear-gradient(to right, #313244 80%, #585b70 100%);
+}
+
+/*Chat background colour*/
+.chatWindow {
+    background: radial-gradient(ellipse farthest-corner at 50% 30%, #1e1e2e 0%, #1e1e2e 50%, #11111b 100%);
+}
+
+/*Message block styling*/
+.ChatMessageBlock {
+    border: 1px solid transparent;
+    margin-top: 15px;
+    padding: 0 15px 15px 15px;
+}
+.ChatMessageBlock:hover {
+    border: 1px solid #cba6f7;
+    margin-top: 15px;
+    padding: 0 15px 15px 15px;
+}
+
+
+/*Chat text*/
+.msgText {
+    color: #cdd6f4;
+    font-family: Modenine;
+}
+
+/*Current user in chat name colour*/
+.isCurrentUser ._2m5YDddCyVhilOuWH-bTC1 {
+    color: #94e2d5;
+}
+/*Right of in chat current user logo status line, online*/
+.speaker.online .speakerStatus {
+    background-color: #94e2d5;
+}
+
+/*Add friend to group chat button bg colour*/
+.inviteAnotherFriendButton  {
+    background-color: #11111b;
+}
+
+/*Add friend to group chat button colour*/
+.inviteAnotherFriendButton .SVGIcon_Button {
+    fill: #45475a;
+}
+.inviteAnotherFriendButton .SVGIcon_Button line, .chatRoomButton .SVGIcon_Button line {
+    fill: #f5e0dc;
+}
+.inviteAnotherFriendButton .SVGIcon_Button line, .chatRoomButton .SVGIcon_Button line {
+    fill: #f5e0dc;
+}
+
+
+
+/*message reaction hover popup bg colour*/
+._3qYm9oxf8MdyvQDJgbfCrF ._10OzYaCdn7cgVMec9ozEJG {
+    background: none;
+    background-color: #cba6f7;
+}
+
+/*message reaction hover popup icon colour*/
+._3qYm9oxf8MdyvQDJgbfCrF ._10OzYaCdn7cgVMec9ozEJG ._2ovvDFSsxzUoYuqzJsxecQ:not(:first-child){
+    color: #11111b;
+}
+._3qYm9oxf8MdyvQDJgbfCrF ._10OzYaCdn7cgVMec9ozEJG ._2ovvDFSsxzUoYuqzJsxecQ {
+    color: #11111b;
+}
+
+/*Input box surrounding area*/
+.chatWindow .chatEntry {
+    background-color: #1e1e2e;
+}
+
+/*Input box colour*/
+._113iuw_HlE_qSgt9cGWCSv {
+    background-color: #11111b;
+    color: #f5e0dc;
+    margin-right: 0px;
+}
+
+/*Send message button, inactive*/
+._3Ule3rolhZJiBN4yNNtk1s .RVIs84dAE6wHcjH9tkinc {
+    background-color: #313244;
+    background: #11111b;
+    font-family: Modenine;
+}
+
+/*send message button border*/
+.RVIs84dAE6wHcjH9tkinc {
+    border: 1px solid #11111b;
+}
+
+/*Send message button, active*/
+._3Ule3rolhZJiBN4yNNtk1s .RVIs84dAE6wHcjH9tkinc:not(.jaQN2IyN4P8LZXJ6P11qy) {
+    background: none;
+    background-color: #a6e3a1;
+}
+
+/*Send message button icon, inactive*/
+.RVIs84dAE6wHcjH9tkinc .SVGIcon_Submit path {
+    fill: #585b70;
+}
+
+/*Send message button icon, active*/
+.RVIs84dAE6wHcjH9tkinc:not(.jaQN2IyN4P8LZXJ6P11qy):focus .SVGIcon_Button.SVGIcon_Submit path, .RVIs84dAE6wHcjH9tkinc:not(.jaQN2IyN4P8LZXJ6P11qy):hover .SVGIcon_Button.SVGIcon_Submit path, .RVIs84dAE6wHcjH9tkinc:not(.jaQN2IyN4P8LZXJ6P11qy) .SVGIcon_Button.SVGIcon_Submit path {
+    fill: #11111b;
+}
+
+
+/*Emoji + attachment borders*/
+._2WfNoLBdfKwyutA6ho4aSH {
+    background-color: #11111b;
+}
+
+/*Emoji + attachment bg colour*/
+.RVIs84dAE6wHcjH9tkinc._3zOBeq5W4cNK3lRz_7aroW, .RVIs84dAE6wHcjH9tkinc.Aupswi7-c-w3XwNO5cp2i {
+    background-color: #45475a;
+}
+
+/*Emoji + attachment colour*/
+.RVIs84dAE6wHcjH9tkinc._3zOBeq5W4cNK3lRz_7aroW svg, .RVIs84dAE6wHcjH9tkinc.Aupswi7-c-w3XwNO5cp2i svg {
+    color: #f5e0dc;
+}
+/*Added pointer cursor since it dissapeared for some reason*/
+.RVIs84dAE6wHcjH9tkinc._3zOBeq5W4cNK3lRz_7aroW svg, .RVIs84dAE6wHcjH9tkinc.Aupswi7-c-w3XwNO5cp2i svg:hover {
+    cursor: pointer;
+}
+
+/*Start voice chat button bg colour*/
+.VoiceToggle {
+    background: #45475a;
+}
+
+/*Start voice chat button colour*/
+.friendsui-container .SVGIcon_TextRoom, .friendsui-container .SVGIcon_Button.SVGIcon_TextRoom, .friendsui-container .SVGIcon_VoiceRoom, .friendsui-container .SVGIcon_Button.SVGIcon_VoiceRoom {
+    color: #f5e0dc;
+}
+
+
+/*Bottom right emoji menu popup bg colour*/
+.GreenEnvelopeMenu, .PP7LM0Ow1K5qkR8WElLpt {
+    background: radial-gradient(ellipse farthest-corner at 50% 30%, #1e1e2e 0%, #1e1e2e 50%, #11111b 100%);
+    border: 1px solid #cba6f7;
+}
+
+/*Bottom right emoji menu popup search bar colour*/
+.EuFePPYFGrcf99uLXmBYN ._2l4z-U60lABvd9XWArGjAf {
+    background-color: #45475a;
+    color: #f5e0dc;
+    font-family: Modenine;
+}
+
+
+
+/*CSS for invite friends to chat selection menu starts here*/
+
+/*Bg colour*/
+.DialogContent, .DialogContentTransition {
+    background: radial-gradient(circle at top left, rgb(30, 30, 46, 0.4) 0%, rgb(17, 17, 27) 60%), #1e1e2e;
+}
+
+/*Header text / page title*/
+.DialogHeader {
+    color: #cdd6f4;
+}
+
+/*Body text colour*/
+.DialogBodyText {
+    color: #cdd6f4;
+}
+
+/*Body text names highlighting*/
+.DialogHighlight {
+    color: #94e2d5;
+}
+
+/*Search bar colour*/
+.DialogTextInputBase:not(:disabled):hover {
+    background: rgba(69, 71, 90,.5);
+}
+.DialogTextInputBase:disabled, .DialogTextInputBase:read-only {
+    background: rgba(69, 71, 90,.5);
+}
+
+/*Seach bar font*/
+.DialogListBuilderInput .DialogListBuilderInput_Input.DialogInputPlaceholder {
+    font-family: Modenine;
+}
+
+/*Selected friend box colour*/
+.FriendPicker_ChosenFriend {
+    background: #eba0ac;
+}
+.FriendPicker_ChosenFriend span {
+    color: #313244;
+    font-weight: bold;
+}
+.FriendPicker_ChosenFriend .SVGIcon_X_Line line {
+    stroke-width: 52px;
+    stroke: #cdd6f4;
+}
+
+
+/*Create chat button*/
+button.DialogButton.Primary {
+    background: linear-gradient(to right, #eba0ac 0%, #f38ba8 60%)
+}
+button.DialogButton.Primary:hover, button.DialogButton.Primary.gpfocus {
+    background: linear-gradient(to right, #f38ba8cb 0%, #eba0adc9 60%);
+}
+button.DialogButton.Primary:enabled:active, button.DialogButton.Primary:enabled:hover:active, button.DialogButton.Primary:enabled:active.gpfocus {
+    background: linear-gradient(to right, #f38ba8 0%, #eba0ac 60%);
+}
+
+/*Cancel button*/
+.DialogTwoColLayout>._DialogLayout {
+    background-color: #585b70;
 }
