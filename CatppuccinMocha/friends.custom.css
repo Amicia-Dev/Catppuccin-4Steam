@@ -1,0 +1,159 @@
+/**
+ * @description This file styles friends list, chat, and other related areas. 
+ */
+
+/*Get font from file*/
+@font-face {
+    font-family: Modenine;
+    src: url(Fonts/Modenine-2OPd.ttf);
+}
+
+
+/*Font for most of friends list*/
+body {
+    font-family: Modenine;
+    color: #cdd6f4;
+}
+
+/*Top of friends list + speed dial background color*/
+.friendListHeaderContainer{
+    background-color: #1e1e2e;
+}
+
+
+/*Current user to speed dial divider*/
+.currentUserContainer {
+    border-bottom: 3px dashed rgb(203 166 247 / 30%);
+    font-size: 14px;
+}
+
+
+/*Current user name*/
+.currentUserContainer .nOdcT-MoOaXGePXLyPe0H {
+    font-family: Modenine;
+    font-size: 20px;
+
+    color: #fab387;
+}
+
+
+/*Current user online status text*/
+.titleBarContainer .currentUserContainer ._2Ri005Wg_uXDTa71kdRbcN {
+    font-size: 14px;
+}
+.titleBarContainer .currentUserContainer ._1BbOegz8bYL7iPzgYpOgQI ._2Ri005Wg_uXDTa71kdRbcN {
+    color: #fab387;
+}
+
+/*Top of friends list cosmetic top left fade removed*/
+.statusHeaderGlow {
+    opacity: 0;
+}
+
+
+/*Top of friends list focused highlighting*/
+.title-area-highlight {
+    background: linear-gradient(to right, #f38ba8, #eba0ac);
+    height: 5px;
+    top: 10px;
+    right: 120px;
+    left: 120px;
+    border-radius: 25px;
+    -webkit-mask: none;
+}
+.chatTitleBar .title-area-highlight {
+    -webkit-mask: none;
+}
+.focused .singleWindowFocusBar {
+    opacity: 0;
+}
+
+
+/*Top right action buttons position*/
+.friendsui-container .title-area .title-bar-actions, .DesktopUI .title-area .title-bar-actions {
+    margin-top: 5px;
+    margin-right: 5px;
+}
+/*Top right action buttons rounded*/
+.DesktopUI .title-area-icon, .friendsui-container .title-area-icon {
+    border-radius: 5px;
+    z-index: 99;
+}
+
+
+/*Container with avatar, username and status*/
+.AvatarAndUser {
+    padding-top: 22px;
+    padding-left: 14px;
+    padding-bottom: 14px;
+}
+
+
+/*Speed dial list*/
+.quickAccessFriends:not(.emptyQuickAccess) {
+    padding-top: 10px;
+    padding-left: 7px;
+}
+
+
+/*All friends list tab color*/
+.activeTab {
+    background-color: #11111b;
+}
+
+/*Add friend icon*/
+
+.addFriendButton .SVGIcon_AddFriend .friendHead, .addFriendButton .SVGIcon_AddFriend .friendBody, .addFriendButton .SVGIcon_AddFriend .plusCircle {
+    stroke: #89b4fa;
+    fill: #89b4fa;
+    color: #89b4fa;
+}
+
+/*Search icon*/
+.TabSearchButton .ColorSelector {
+    stroke: #89b4fa;
+    fill: #89b4fa;
+}
+
+/*Search box focused*/
+.friendSearchInput[type=text]:focus {
+    background-color: #45475a;
+}
+
+/*Ingame friends*/
+.ingame .nOdcT-MoOaXGePXLyPe0H {
+    color: #a6e3a1;
+}
+
+/*Ingame friends curently playing text*/
+.ingame ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN, .ingame ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a, .ingame ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:hover, .ingame ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:active, .ingame ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:visited, .ingame._1BbOegz8bYL7iPzgYpOgQI ._2Ri005Wg_uXDTa71kdRbcN {
+    color: #a6e3a1;
+}
+
+
+/*All friends list bg color*/
+.friendlistListContainer {
+    background: none;
+    background-color: #1e1e2e;
+}
+
+/*Group chats tab color*/
+.friendsListSectionTitle {
+    background-color: #11111b;
+}
+
+/*Create group chat icon*/
+.friendsListSectionTitle .SVGIcon_NewChatGroup {
+    fill: #89b4fa;
+}
+
+/*Group chats bg color*/
+.chatRoomListContainer {
+    background: none;
+    background-color: #1e1e2e;
+}
+
+/*Footer*/
+.friendListFooter {
+    background-color: #181825;
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Catppuccin Mocha",
+    "author": "Amicia-dev",
+    "description": "An example template theme.",
+
+    "github": {
+        "owner": "Amicia-Dev",
+        "repo_name": "Catppuccin-4Steam"
+    },
+    "header_image": "https://i.imgur.com/image_here.png",
+    "splash_image": "https://i.imgur.com/image_here.png",
+    "tags": [
+        "Catppuccin",
+        "Mocha",
+        "Simplistic"
+    ],
+    "version": "1.0.0",
+
+    "Steam-WebKit": "webkit.css",
+    "UseDefaultPatches": true
+}
