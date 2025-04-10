@@ -3,83 +3,503 @@
 * [Steam, Settings, Properties, Popups, Dialogs, ...]
 */
 
-
+/*Font from Fonts folder*/
 @font-face {
     font-family: Modenine;
     src: url(Fonts/Modenine-2OPd.ttf);
 }
 
-/*CSS for steam library tab starts here*/
 
+
+
+
+
+
+/*CSS for global styles STARTS HERE====================================================*/
+/*=====================================================================================*/
+/*=====================================================================================*/
+
+/*Sets font in as many places as possible*/
 body {
     font-family: Modenine;
     color: #cdd6f4;
 }
 
-/*Line at the top of what's new*/
+
+
+/*Top of steam / tab list*/
+._3Z7VQ1IMk4E3HsHvrkLNgo {
+    background-color: #11111b;
+}
+/*Bottom of steam / footer*/
+._3vCzSrrXZzZjVJFZNg9SGu {
+    background: #11111b;
+}
+
+
+/*CSS for global styles ENDS HERE======================================================*/
+/*=====================================================================================*/
+/*=====================================================================================*/
+
+
+
+
+
+
+
+/*CSS for steam library tab STARTS HERE================================================*/
+/*=====================================================================================*/
+/*=====================================================================================*/
+
+
+
+
+/*Main steam library window*/
+/*=====================================================================================*/
+/*Bar below steam tabs and above "What's new" container line"*/
+.RGNMWtyj73_-WdhflrmuY ._2CmrnGY-Amtd83ScJkFvx2 {
+    background: #11111b;
+}
+/*Line at the top of "What's new" container*/
 ._2Dd4T78PcCTUVgOtDGFY5j {
-    background: #f38ba8;
+    background: transparent;
 }
 
-/*What's new field bg colour*/
-._17uEBe5Ri8TMsnfELvs8-N {
-   background-image: linear-gradient(to top, #181825 0%, #1e1e2e 80%);
-   border: dashed #cba6f7 1px;
-   border-radius: 10px;
-   margin: 10px;
-}
-
-/*Recent games backdrop*/
+/*"What's New" & "Recent Games" lowest background*/
 ._2gSXCB6PbOlMxslr8hm6dm {
     background-image: linear-gradient(to bottom, #11111b 0%, #11111b 20%, #11111b 60%);
 }
+/*=====================================================================================*/
 
-/*Recent and all games fields*/
-._3Sb2o_mQ30IDRh0C72QUUu {
-   background-image: linear-gradient(to top, #1e1e2e 0%, #181825  80%);
-   border: dashed #cba6f7 1px;
-   border-radius: 10px;
+
+
+
+
+/*"What's New" container*/
+/*=====================================================================================*/
+/*Background colour, margins & border stuff*/
+._17uEBe5Ri8TMsnfELvs8-N {
+   background-image: linear-gradient(to top, #181825 0%, #1e1e2e 80%);
+   border: solid transparent 1px;
+   /*border-radius: 10px;*/
    margin: 10px;
-   
+   transition: 0.3s;
 }
-
-/*Recent and all games fields round flyer corners*/
-.WYgDg9NyCcMIVuMyZ_NBC {
-    border-radius: 10px;
-}
-
-
-/*Recent and all games fields extend margins*/
-.V7RuDNUxhxoBRaiGWbk3B {
-    border: solid transparent 1px;
-    padding-top: 15px;
-    margin-bottom: 25px;
-}
-/*Adds border around Recent and all games fields when hovering*/
-.V7RuDNUxhxoBRaiGWbk3B:hover {
+/*Border colour, when hover*/
+._17uEBe5Ri8TMsnfELvs8-N:hover {
     border: solid #cba6f7 1px;
 }
 
-
-/*User in game on game flyer status line colour*/
-.ingame ._3xUpb5DWXPFNcHHIcv-9pe {
-    background: linear-gradient(to bottom, #a6e3a1 0%, #a6e3a1 30%, #a6e3a1 70%, #a6e3a1 100%);
+/*News images rounded corners*/
+.B-vCdL38RiJlhfSRgZv78 .SPz0ipLqfF1oAO7tdrkdY {
+    border-radius: 10px;
 }
 
+/*Image blur colour and info thingy when hovering over news images*/
+.B-vCdL38RiJlhfSRgZv78._278jFDApipeB4kFsi44_F5:hover ._3Rb_j3lgHaVVIud4Gla7_m, .gpfocus>.B-vCdL38RiJlhfSRgZv78._278jFDApipeB4kFsi44_F5 ._3Rb_j3lgHaVVIud4Gla7_m {
+    background-color: rgb(30 30 46 / 70%);
+}
 
-/*Recent games play button bg colour*/
+/*"News" text colour when hovering over news images*/
+.B-vCdL38RiJlhfSRgZv78._278jFDApipeB4kFsi44_F5:hover ._3Rb_j3lgHaVVIud4Gla7_m ._1vIlyxb5BAwKPUkOfO94qZ, .gpfocus>.B-vCdL38RiJlhfSRgZv78._278jFDApipeB4kFsi44_F5 ._3Rb_j3lgHaVVIud4Gla7_m ._1vIlyxb5BAwKPUkOfO94qZ {
+    color: #f9e2af;
+}
+
+/*Tiny arrow colour when hovering over news images*/
+._2-p7shAZYrRijpaTU9bAFR>div {
+    background-color: #cba6f7;
+}
+/*Tiny arrow colour when hovering over tiny arrow*/
+._2-p7shAZYrRijpaTU9bAFR:hover>div {
+    background-color: #cba6f7a4;
+}
+/*=====================================================================================*/
+
+
+
+
+
+
+/*Most recently played game box*/
+/*=====================================================================================*/
+/*Play button background colour*/
 ._3AjoLnMNKxYmNTGTJCLfgs._1_Bo2Ied5s2Od4YKYTOsau:not(._1aml4h4CSJbtrNbX4brUYs) {
-    background: radial-gradient(circle farthest-corner at 50% 50%, #f5c2e7 0%, #cba6f7 100%);
+    background: radial-gradient(circle farthest-corner at 50% 50%, #cba6f77e 0%, #cba6f77e 100%);
+    transition: 0.3s;
 }
-/*Recent games play button icon colour*/
+/*Play button background colour, when hover */
+._54PuCatl_tYG836TOs4Mv ._3AjoLnMNKxYmNTGTJCLfgs._1_Bo2Ied5s2Od4YKYTOsau:not(._1aml4h4CSJbtrNbX4brUYs):hover {
+    background: radial-gradient(circle farthest-corner at 50% 50%, #cba6f7a8 0%, #cba6f7af 100%);
+}
+
+/*Play button icon colour*/
 ._3AjoLnMNKxYmNTGTJCLfgs._1_Bo2Ied5s2Od4YKYTOsau:not(._1aml4h4CSJbtrNbX4brUYs) .SVGIcon_Play {
-    fill: #6c6e92;
+    fill: #eba0ac;
 }
-/*Recent games play button bg colour, when hover !!!NOT WORKING AT THE MOMENT, FIX!!!*/
-._3AjoLnMNKxYmNTGTJCLfgs._1_Bo2Ied5s2Od4YKYTOsau:not(._1aml4h4CSJbtrNbX4brUYs):hover {
-    background: radial-gradient(circle farthest-corner at 50% 50%, #f5c2e7d2 0%, #cba6f7d3 100%);
-}
-/*Recent games play button icon colour, when hover */
+/*Play button icon colour, when hover */
 ._54PuCatl_tYG836TOs4Mv ._3AjoLnMNKxYmNTGTJCLfgs:hover:not(._1aml4h4CSJbtrNbX4brUYs) .SVGIcon_Play {
-    fill: #878abb;
+    fill: #d78995;
 }
+
+
+/*"TIME PLAYED" text colour*/
+._3bkuozxKIatrWG3aeisthc._2zIRlEsAfHhI-_3bZ3X60z {
+    color: #cdd6f4;
+}
+
+/*"Last two weeks" & "Total" text colour*/
+._3bkuozxKIatrWG3aeisthc.ma8y_VgPze1mscYhW6-oS, ._3bkuozxKIatrWG3aeisthc._3JWBBEulYkYmDLJr485oex {
+    color: rgba(205, 214, 244, 0.658);
+}
+/*=====================================================================================*/
+
+
+
+
+
+/*"Recent Games" & "All Games" container*/
+/*=====================================================================================*/
+/*Background colour, margins & border stuff*/
+._3Sb2o_mQ30IDRh0C72QUUu {
+    background-image: linear-gradient(to top, #1e1e2e 0%, #181825  80%);
+    border: solid transparent 1px;
+    /*border-radius: 10px;*/
+    margin: 10px;
+    transition: 0.3s;
+ }
+ /*Border colour, when hover*/
+ ._3Sb2o_mQ30IDRh0C72QUUu:hover {
+     border: solid #cba6f7 1px;
+ }
+ 
+ 
+ /*Round flyer corners*/
+ .WYgDg9NyCcMIVuMyZ_NBC {
+     border-radius: 10px;
+ }
+ /*Extend margins*/
+ .V7RuDNUxhxoBRaiGWbk3B {
+     padding-top: 15px;
+     margin-bottom: 20px;
+ }
+ 
+ /*Friend in game, on game flyer, status line colour*/
+ .ingame ._3xUpb5DWXPFNcHHIcv-9pe {
+     background: linear-gradient(to bottom, #a6e3a1 0%, #a6e3a1 30%, #a6e3a1 70%, #a6e3a1 100%);
+ }
+ /*=====================================================================================*/
+ 
+ 
+
+
+
+
+/*Left side games list & categories*/
+/*=====================================================================================*/
+/*Lower bg colour*/
+._1ENHEsrSLcTRtPQFl1F-wL._1DvwQt0JN-Ogp_4tVZdkzX {
+    background-color: #11111b;
+}
+/*Container bg colour*/
+._3x1HklzyDs4TEjACrRO2tB {
+    background-image: linear-gradient(to top, #1e1e2e 0%, #1e1e2e  80%);
+}
+/*Container extend margins and border stuff*/
+._9sPoVBFyE_vE87mnZJ5aB {
+    margin: 11px;
+    border: solid transparent 1px;
+    transition: 0.3s;
+}
+/*Container extend margins and border stuff when hover*/
+._9sPoVBFyE_vE87mnZJ5aB:hover {
+    border: solid #cba6f7 1px;
+}
+/*=====================================================================================*/
+
+
+
+
+/*Left side games list & categories Home button*/
+/*=====================================================================================*/
+/*Surrounding area background colour*/
+._2TKEazUUS3TlniZfpc8OOe {
+    background-color: #1e1e2e;
+}
+/*Background colour*/
+._3pSPluBgf0NeR1kkCLWMhR.eNLOx4LVceeMwRvTVWh3 {
+    background-color: #cba6f73b;
+}
+/*Background colour when hover*/
+._3pSPluBgf0NeR1kkCLWMhR.eNLOx4LVceeMwRvTVWh3:hover {
+    background-color: #cba6f721;
+}
+/*Text colour*/
+.eNLOx4LVceeMwRvTVWh3 ._3O48LaKWcabKx07xdrt1TH {
+    color: #cdd6f4;
+}
+/*=====================================================================================*/
+
+
+
+
+
+/*Left side games list & categories Your Collection button*/
+/*=====================================================================================*/
+/*Background colour*/
+._3pSPluBgf0NeR1kkCLWMhR {
+    background-color: #cba6f73b;
+}
+/*Icon colour*/
+.nC-pL16iUnIRcaj1UVnwq ._2tyaVs9BpqcW068aaOrO56 {
+    background: #1e1e2ecf;
+}
+
+/*Background colour when hover*/
+._3pSPluBgf0NeR1kkCLWMhR:hover {
+    background-color: #cba6f721;
+}
+
+/*Icon colour when hover*/
+._3pSPluBgf0NeR1kkCLWMhR:hover ._2tyaVs9BpqcW068aaOrO56 {
+    background: #1e1e2ea9;
+}
+/*=====================================================================================*/
+
+
+
+/*Left side games list & categories, Categories dropdown button and adjacent*/
+/*=====================================================================================*/
+/*Categories dropdown button background & text colour*/
+._1ZS_xta5HMXzR8JgxDH6n7 ._2PF_m-I5yte3WnQhpcz8RC {
+    background-color: rgb(49 50 68 / 60%);
+    color: #cdd6f4;
+}
+
+/*Categories dropdown button background & text colour when hover*/
+._1ZS_xta5HMXzR8JgxDH6n7 ._2PF_m-I5yte3WnQhpcz8RC:hover {
+    color: #cdd6f4;
+    background-color: #cba6f721;
+}
+
+/*Categories dropdown checkmark colour*/
+.EDl_mzaY3WxkgmYVD8W4d ._1BAKXmqQdWRWmWX9_CbhuY._2_iY4UJOlWDXNQ21c-a3hD svg {
+    filter: hue-rotate(45deg);
+}
+
+
+
+/*"Sort by recent" & "Show only ready to play" buttons colour*/
+._1ZS_xta5HMXzR8JgxDH6n7 ._1PgAonvorr0o_NMxNKiDFU ._3mzKdQXht__YHo6PX1LmB6 svg path, ._1ZS_xta5HMXzR8JgxDH6n7 ._1PgAonvorr0o_NMxNKiDFU ._3mzKdQXht__YHo6PX1LmB6 svg line, ._1ZS_xta5HMXzR8JgxDH6n7 ._1PgAonvorr0o_NMxNKiDFU ._3mzKdQXht__YHo6PX1LmB6 svg polyline, ._1ZS_xta5HMXzR8JgxDH6n7 ._1PgAonvorr0o_NMxNKiDFU ._3mzKdQXht__YHo6PX1LmB6 svg circle {
+    stroke: #cdd6f4;
+}
+/*"Show only ready to play" button center colour*/
+._1ZS_xta5HMXzR8JgxDH6n7 ._1PgAonvorr0o_NMxNKiDFU ._3mzKdQXht__YHo6PX1LmB6 svg {
+    fill: #cdd6f4;
+}
+/*=====================================================================================*/
+
+
+
+
+/*Left side games list & categories, search bar*/
+/*=====================================================================================*/
+
+/*Removed bottom border*/
+._20QAC4WMXm8qFE8waUT5oo ._12vo5L1hsNGdao6_ssuirS .DialogTextInputBase {
+    border-bottom: solid transparent 1px;
+}
+
+
+/*Search bar background colour*/
+._20QAC4WMXm8qFE8waUT5oo {
+    background-color: rgb(49 50 68 / 60%);
+}
+
+/*Search bar background colour when hover*/
+._20QAC4WMXm8qFE8waUT5oo ._12vo5L1hsNGdao6_ssuirS .DialogTextInputBase:hover {
+    background-color: #45475a;
+}
+
+/*Search bar text colour*/
+.DialogTextInputBase, ._DialogInputContainer {
+    color: #cdd6f4;
+}
+
+/*"Exit search" dropdown button bg colour. (Pops up from canceling advanced filter search)*/
+.DesktopUI .PP7LM0Ow1K5qkR8WElLpt, ._3qIuY9S_vXm3IQS-uE9SRS .PP7LM0Ow1K5qkR8WElLpt {
+    background: #45475a;
+}
+/*"Exit search" dropdown button, while hover*/
+.DesktopUI .PP7LM0Ow1K5qkR8WElLpt, ._3qIuY9S_vXm3IQS-uE9SRS .PP7LM0Ow1K5qkR8WElLpt:hover {
+    cursor: pointer;
+}
+/*=====================================================================================*/
+
+
+
+/*Left side games list & categories, advanced filtering button*/
+/*=====================================================================================*/
+/*Button background colour, when hover*/
+._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU._31r1_h2SmzwQtP9ZLLyA0I, ._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU:not(._1Gjk27xaRIzt2zOSwOSP0N):hover {
+    background-color: #45475a;
+}
+
+/*Button to pop up connector colour*/
+._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU ._1dgAMymUAUYzUcZjUjOFm7 .Woh0kBQCmatzC1daBX9i6:before {
+    background-color: #45475a;
+}
+
+/*Button background colour while popup open*/
+._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU ._2rILnoW6swWh4_9TDWWc31 {
+    background-color: #eba0ac;
+}
+
+/*"Search by type" text colour*/
+._172OFJhtx4Jt2ydY6-9IUm {
+    color: #cdd6f4;
+}
+/*=====================================================================================*/
+
+
+
+
+/*Left side games list & categories, advanced filtering popup*/
+/*=====================================================================================*/
+/*Background colour*/
+._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU ._1dgAMymUAUYzUcZjUjOFm7 .Woh0kBQCmatzC1daBX9i6 {
+    background-color: #45475a;
+}
+
+/*Labels colour*/
+._170Npw5h84elypMSQ8zNDI ._1ennWu_xj2YF8FRYgJ2M2H ._1axoiZsC1RBp22JQmxiBIc ._3iV2vMTw_vwWJ_gmiz1Q1k {
+    color: #eba0ac;
+}
+
+/*Checkboxes colour, when hover*/
+.DialogCheckbox_Container:hover .DialogCheckbox:not(.Disabled), .DialogCheckbox:hover:not(.Disabled), .DialogCheckbox_Container:focus .DialogCheckbox:not(.Disabled), .DialogCheckbox:focus:not(.Disabled) {
+    background-color: #45475a;
+}
+
+/*Checkmark colour*/
+._170Npw5h84elypMSQ8zNDI ._1ennWu_xj2YF8FRYgJ2M2H ._1axoiZsC1RBp22JQmxiBIc ._32e6rHniKd5ztOQ1lYIulu ._1J53P1yXTWlwJRyCAzMQei ._2AOkQORncEi9SJ3FCWnPmY svg {
+    filter: hue-rotate(45deg);
+}
+/*=====================================================================================*/
+
+
+
+
+
+
+/*Left side games list & categories, advanced filtering popup, "Gamepads" & "Steam Deck" dropdowns*/
+/*=====================================================================================*/
+/*Background & text colour */
+._1g2o21WAWugv5qRumV1XWB ._DialogInputContainer {
+    background: #24252f;
+    color: #f5e0dc;
+    font-family: Modenine;
+}
+
+
+/*"Gamepads" dropdown selections bg colour, while hover*/
+._1g2o21WAWugv5qRumV1XWB .HHtHxeezIpprDH2vkTH1Y:focus {
+    background-color: #45475a;
+}
+/*"Gamepads" selected gamepad text colour*/
+._2J170P0ckFcUIlsDU13MLS ._DialogInputContainer {
+    color: #f5e0dc;
+}
+
+/*"Steam Deck" dropdown selections bg colour, while hover*/
+._1g2o21WAWugv5qRumV1XWB .HHtHxeezIpprDH2vkTH1Y:focus {
+    background-color: #45475a;
+}
+/*"Steam Deck" dropdown selection checkmark colour*/
+.kEODDe6M5cuHWuPlcQexX {
+    color: #a6e3a1;
+}
+/*"Steam Deck" dropdown selection exclamation mark colour*/
+.mPD42Bwx3VAs0qw9wubf2 {
+    color: #f9e2af;
+}
+/*"Steam Deck" dropdown selection question mark & block sign colour*/
+._2LAaxz6RtHXrJJj9NzCNL4, .xBqU_GerRwzHIs8N9ratU {
+    color: #f5e0dc;
+}
+/*=====================================================================================*/
+
+
+
+
+/*Left side games list & categories, advanced filtering popup, "enter a tag" & "enter a friend's name" input boxes*/
+/*=====================================================================================*/
+/*Background colour, while hover*/
+._170Npw5h84elypMSQ8zNDI ._1ennWu_xj2YF8FRYgJ2M2H ._1axoiZsC1RBp22JQmxiBIc .DialogInput_Wrapper .DialogTextInputBase:hover {
+    background: #24252f;
+}
+/*Background colour & text colour, while focused*/
+._170Npw5h84elypMSQ8zNDI ._1ennWu_xj2YF8FRYgJ2M2H ._1axoiZsC1RBp22JQmxiBIc .DialogInput_Wrapper .DialogTextInputBase.Focusable:focus {
+    background-color: #24252f;
+    color: #cdd6f4;
+}
+/*Dropdown selection background colour*/
+._170Npw5h84elypMSQ8zNDI ._1ennWu_xj2YF8FRYgJ2M2H ._1axoiZsC1RBp22JQmxiBIc.MIMuVt_bcI4rYVo1e14kR ._32e6rHniKd5ztOQ1lYIulu {
+    background-color: #24252f;
+}
+/*Dropdown selection text colour*/
+.DesktopUI .DialogToggle_Label {
+    color: #cdd6f4;
+}
+/*=====================================================================================*/
+
+
+
+
+/*Left side games list & categories, advanced filtering popup*/
+/*=====================================================================================*/
+/*"Save as Dynamic Collection" button background colour*/
+button.DialogButton.Primary {
+    background: linear-gradient(to right, #eba0ac 0%, #eba0adb4 60%);
+}
+
+/*"Save as Dynamic Collection" button background colour, while hover*/
+button.DialogButton.Primary:hover, button.DialogButton.Primary.gpfocus {
+    background: linear-gradient(to right, #eba0ad91 0%, #eba0ad94 60%);
+}
+/*=====================================================================================*/
+
+
+
+
+/*Left side games list & categories, applied filters boxes after applying advanced filtering*/
+/*=====================================================================================*/
+/*Background colour & text colour + bold & padding*/
+._172OFJhtx4Jt2ydY6-9IUm ._3gzh_NvTKey56JeHY7Q1WW {
+    background-color: #eba0ac;
+    color: #1e1e2ec7;
+    font-weight: bold;
+    padding-top: 8px;
+}
+/*Change colour of "remove filter" button on the filter boxes*/
+._172OFJhtx4Jt2ydY6-9IUm ._3gzh_NvTKey56JeHY7Q1WW svg {
+    filter: invert(1);
+}
+/*Player avatars, correct position*/
+._172OFJhtx4Jt2ydY6-9IUm ._3gzh_NvTKey56JeHY7Q1WW ._224Jw0OwqNYu37mxX4-K79 {
+    margin-top: -3px;
+}
+/*Player name with nickname star colour and other corrections*/
+._172OFJhtx4Jt2ydY6-9IUm ._3gzh_NvTKey56JeHY7Q1WW ._39NBdww-fPxMN1AsYJ4fu5 {
+    color: #181825;
+    font-size: 12px;
+    font-weight: 100;
+    padding-left: 2px;
+    margin-top: -3px;
+}
+/*=====================================================================================*/
+
+
+
+/*CSS for steam library tab ENDS HERE================================================*/
+/*=====================================================================================*/
+/*=====================================================================================*/
