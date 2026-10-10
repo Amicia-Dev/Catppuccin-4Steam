@@ -54,15 +54,78 @@ body {
 
 
 
+
+/*Top level steam tabs, store, library, etc*/
+/*=====================================================================================*/
+/*Selected tab colour*/
+._7AlhCx3XGzBeIrQaCneUD._1gqEjB5QsKT_NftD1dEsdZ:not(._2cO0HdvLEGAdhosLekWsmo) ._19axKcqYRuaJ8vdYKYmtTQ {
+    color: #cba6f7;
+    text-shadow: 0px 0px 1px #cba6f7;
+}
+._7AlhCx3XGzBeIrQaCneUD._1gqEjB5QsKT_NftD1dEsdZ:not(._2cO0HdvLEGAdhosLekWsmo) ._19axKcqYRuaJ8vdYKYmtTQ::after {
+    background: #cba6f7;
+}
+
+/*=====================================================================================*/
+
+
+
+
+
+
+/*Top right profile status*/
+/*=====================================================================================*/
+/*Name colour, Online*/
+._3yD46y5pd3zOGR7CzKs0mC.online {
+    color: #94e2d5;
+}
+/*Status line, Online*/
+.online ._3xUpb5DWXPFNcHHIcv-9pe {
+    background: #94e2d5;
+}
+/*=====================================================================================*/
+
+
+
+
+
+
 /*Main steam library window*/
 /*=====================================================================================*/
 /*Bar below steam tabs and above "What's new" container line"*/
 .RGNMWtyj73_-WdhflrmuY ._2CmrnGY-Amtd83ScJkFvx2 {
     background: #11111b;
 }
+/*Remove ugly line in library*/
+.RGNMWtyj73_-WdhflrmuY._3WJCt_OkjPA6npxOtguSt5 ._2CmrnGY-Amtd83ScJkFvx2.Maximized, .Maximized .RGNMWtyj73_-WdhflrmuY._3WJCt_OkjPA6npxOtguSt5 ._2CmrnGY-Amtd83ScJkFvx2 {
+    box-shadow: none;
+}
+/*Remove second ugly line in library*/
+._2Nq6ov7A1hGcHXVOXNt_OE {
+    border-top: none;
+}
+
+/*Vertical resize line height, design & positioning*/
+._276E6ijBpjMA2_iTxNhhjc {
+    width: 3px;
+    height: 50px;
+    background-color: #181825;
+    margin-top: 20%;
+    border-radius: 90px;
+}
+._276E6ijBpjMA2_iTxNhhjc._2g5K_hJWc7jVo81zuejhk2:hover {
+    background-color: #cba6f7;
+}
+
 /*Line at the top of "What's new" container*/
 ._2Dd4T78PcCTUVgOtDGFY5j {
     background: transparent;
+    
+}
+
+/*Offset for large right library box*/
+._2Dd4T78PcCTUVgOtDGFY5j {
+top: 11px;
 }
 
 /*"What's New" & "Recent Games" lowest background*/
@@ -82,7 +145,7 @@ body {
    background-image: linear-gradient(to top, #181825 0%, #1e1e2e 80%);
    border: solid transparent 1px;
    /*border-radius: 10px;*/
-   margin: 10px;
+   margin: 0px 10px;
    transition: 0.3s;
 }
 /*Border colour, when hover*/
@@ -214,6 +277,42 @@ body {
 ._9sPoVBFyE_vE87mnZJ5aB:hover {
     border: solid #cba6f7 1px;
 }
+/*Remove weird fade effect*/
+._2sYIghGVXJr6tsQVvcryy8 {
+    background: transparent;
+}
+/*Category name text colour*/
+._3cV3O8FnPQqpJO5kIMUlLX {
+    color: #cdd6f4;
+}
+/*Category name text offset*/
+._2mZ8LlvoUiyeEUtIWuTri {
+    margin-top: 3px;
+}
+/*Colour for Expand category button*/
+.ehAsUVkW87U5OHZJohB5N ._3SFRZYIb9Y2q7YsVtB3YKb {
+    stroke: #cdd6f4;
+}
+/*Colour for hovering over category*/
+._2sYIghGVXJr6tsQVvcryy8:hover {
+    background: #181825;
+}
+/*Colour & style for selected category*/
+._2sYIghGVXJr6tsQVvcryy8.sXMOsx8OIRalBMxO9yFY5 {
+    background: #313244;
+    box-shadow: 0px 0px 0px 0px;
+    border-bottom: solid;
+    border-bottom-color: #f5c2e7;
+    border-bottom-width: 2px;
+}
+/*Installed game name colour*/
+._2-O4ZG0KrnSrzISHBKctFQ._2ws8DONH9fxQjPXEmRpujE {
+    color: #cdd6f4;
+}
+/*Not installed game name colour*/
+._2-O4ZG0KrnSrzISHBKctFQ._5YTBr7WwIfzVU_3nUtAph {
+    color: #585b70;
+}
 /*=====================================================================================*/
 
 
@@ -236,6 +335,10 @@ body {
 /*Text colour*/
 .eNLOx4LVceeMwRvTVWh3 ._3O48LaKWcabKx07xdrt1TH {
     color: #cdd6f4;
+}
+/*Remove dropshadow, appears sometimes when not in fullscreen*/
+._2TKEazUUS3TlniZfpc8OOe {
+    box-shadow: none;
 }
 /*=====================================================================================*/
 
@@ -497,6 +600,276 @@ button.DialogButton.Primary:hover, button.DialogButton.Primary.gpfocus {
     margin-top: -3px;
 }
 /*=====================================================================================*/
+
+
+
+
+
+
+/*Inside any category screen*/
+/*=====================================================================================*/
+
+/*Background colour*/
+._2q70uOe6xM3-c5XIVfBLe6 {
+    background-image: linear-gradient(to top, #181825 0%, #1e1e2e 80%);
+}
+/*Category name colour*/
+._2q70uOe6xM3-c5XIVfBLe6 ._2rqTSCLSSEycEiuCS_OkpX ._2oJt3qYLAqr6xMjnpmBFLN {
+    color: #cdd6f4;
+}
+
+/*Scroll to top button bg colour*/
+._1J21tLst5SEhBPkVRT53UV div {
+    background: linear-gradient(to bottom, rgba(203, 166, 247, 0.9) 0, #cba6f7 100%);
+}
+/*Scroll to top button text colour*/
+._1J21tLst5SEhBPkVRT53UV {
+    color: #181825;
+}
+/*Scroll to top button bg colour when hover*/
+._1J21tLst5SEhBPkVRT53UV:hover._28ZR8gHitOrJaSLxcIAl2p {
+    filter: hue-rotate(45deg);
+}
+/*Scroll to top button position fix*/
+._1J21tLst5SEhBPkVRT53UV {
+margin-bottom: -5px;
+}
+/*=====================================================================================*/
+
+
+
+
+
+/*Inside Your Collections screen*/
+/*=====================================================================================*/
+
+/*Background colour*/
+.u1xD3KJEgksF_J_5TLZzO {
+    background: #1e1e2e;
+}
+
+/*Button borders removed*/
+._3IWn-2rn7x98o5fDd0rAxb {
+    border: none;
+}
+
+/*New Collection Popup*/
+/*-------------------------------------*/
+
+/*Font*/
+.z-cTLiR329QSsE3P9rkR {
+    font-family: Modenine;
+}
+
+/*Top Container Border*/
+div.ModalPosition_TopBar {
+    background: linear-gradient(to right, #eba0ac, #cba6f7);
+}
+
+/*Close Button*/
+.ModalPosition_Dismiss .closeButton .SVGIcon_X_Line line {
+    stroke: #eba0ac;
+}
+
+/*Background Colour*/
+.DialogContent, .DialogContentTransition {
+    background: #1e1e2e;
+}
+/*REQUIRED Text*/
+.DialogLabel.w_ZWyQas4jedC6a1AHA5Z {
+    color: #f38ba8;
+}
+
+/*Info boxes*/
+._3uOErrMLSNVM7v6C3zKSJh {
+    background: #313244;
+    color: #cdd6f4;
+}
+
+/*Buttons*/
+._33bWWYKdaxI_uMvK0TPjm4 ._3vDq3loNLE6O8iHtj6rOfX ._25n_zgE_sgrYzl4G-YE8VN {
+    background: #eba0ac;
+    color: #464d58;
+}
+
+/*Buttons disabled*/
+._33bWWYKdaxI_uMvK0TPjm4 ._3vDq3loNLE6O8iHtj6rOfX._3Jmn39gWVcTTHWXW-ydfWy ._25n_zgE_sgrYzl4G-YE8VN {
+    filter: saturate(0.4);
+}
+
+/*Buttons disabled text colour*/
+._33bWWYKdaxI_uMvK0TPjm4 ._3vDq3loNLE6O8iHtj6rOfX._3Jmn39gWVcTTHWXW-ydfWy ._25n_zgE_sgrYzl4G-YE8VN {
+    color: #464d58;
+}
+
+/*Dynamic Collection SVG Colour*/
+._33bWWYKdaxI_uMvK0TPjm4 ._3vDq3loNLE6O8iHtj6rOfX ._25n_zgE_sgrYzl4G-YE8VN svg {
+    fill: #313244;
+}
+
+/*Input Box Bg Colour and Font*/
+.DialogTextInputBase, ._DialogInputContainer {
+    background: #11111b;
+    font-family: Modenine;
+}
+
+/*Input Box Font On Focus*/
+.DialogInput_Wrapper>input.DialogInput:focus {
+    font-family: Modenine;
+}
+
+/*Input Box Bg Colour On Focus*/
+.DesktopUI .DialogTextInputBase:focus, .DialogTextInputBase:focus-within {
+    background: #313244;
+}
+
+/*Input Box Bg Colour On Hover*/
+.DialogTextInputBase:not(:disabled):hover {
+    background: #11111bd3;
+}
+
+/*-----------------------------------*/
+
+/*=====================================================================================*/
+
+
+
+
+
+/*Inside Selected Game Screen*/
+/*=====================================================================================*/
+
+/*Container right side margin*/
+._3BFcmjAaMyP6GTPwc0VyWi {
+    margin-right: 11px;
+}
+
+/*Container transparent border*/
+._2Dd4T78PcCTUVgOtDGFY5j {
+    border: transparent solid 1px;
+    transition: 0.3s;
+}
+
+/*On hover border*/
+._2Dd4T78PcCTUVgOtDGFY5j:hover {
+    border: solid #cba6f7 1px;
+}
+
+/*Background*/
+._2OOzYVWIHaKXm6_7sscT9i .OhSdLYuggDtBcWjYP0j_9 {
+    background: #1e1e2e;
+}
+._3DeO92O5aVkcdwEBCJDjWm._3fLo166MlaNqP8r8tTyRz {
+    background: #1e1e2e;
+}
+._2OOzYVWIHaKXm6_7sscT9i>div {
+    background: #1e1e2e;
+    margin-top: 5px;
+}
+div.HighPerfMode ._2l416KfEtI4CL0mCUEmOBw {
+    background: none;
+}
+._2OOzYVWIHaKXm6_7sscT9i .Jbe--NUNw7sxbxGsMSjVa {
+    background: #1e1e2e;
+}
+
+
+/*Navbar + Friends who play bg stuff*/
+._31ptFGGMZrSQc5BCX1e5lm._3KfxIwlXEvum7FCD_AM2_t {
+    border-image-slice: 0;
+    background: none;
+    box-shadow: none;
+    margin-bottom: 30px;
+}
+/*Navbar bg remover*/
+._3-V8vjmrwuJM6Ws3tsjFJj>div {
+    background: none !important;
+}
+
+/*Navbar buttons bg on hover*/
+.DY4_wSF8h9T5o46hO5I9V ._1b6LYWVijW-9E4YV0keDWZ:hover {
+    background-color: transparent;
+}
+
+
+/*Navbar Text Colour*/
+.DY4_wSF8h9T5o46hO5I9V ._1b6LYWVijW-9E4YV0keDWZ ._2sNDjgK9EWiPLdNGkjun-w {
+    color: #cdd6f4;
+}
+
+/*Navbar Text on hover*/
+.DY4_wSF8h9T5o46hO5I9V ._1b6LYWVijW-9E4YV0keDWZ:hover ._2sNDjgK9EWiPLdNGkjun-w {
+    color: #f5c2e7;
+}
+
+
+
+/*status bar + play button top padding*/
+._3DeO92O5aVkcdwEBCJDjWm._3fLo166MlaNqP8r8tTyRz {
+    padding-top: 15px;
+}
+._2_86QNCjVvJTL3Qe6Xztx_ {
+    background: #1e1e2e;
+}
+
+/*Play button*/
+._3cI5TXsFX3bvpR-7EBOtxq>._2AzIX5kl9k6JnxLfR5H4kX {
+    background: none;
+    border-radius: 0px;
+    border: #a6e3a1 solid 1px
+}
+
+/*Play button on hover*/
+:not(._1Pb6PMh_3L5p5NzuUz0Pp9)>._3cI5TXsFX3bvpR-7EBOtxq>._2AzIX5kl9k6JnxLfR5H4kX:hover {
+    background: none;
+    transform: scale(1.05);
+}
+
+/*Play button play symbol colour*/
+._3cI5TXsFX3bvpR-7EBOtxq>._2AzIX5kl9k6JnxLfR5H4kX svg {
+    fill: #cdd6f4;
+    margin-right: 15px;
+    margin-left: -12px;
+}
+
+/*Play button play symbol on hover colour*/
+:not(._1Pb6PMh_3L5p5NzuUz0Pp9)>._3cI5TXsFX3bvpR-7EBOtxq>._2AzIX5kl9k6JnxLfR5H4kX:hover svg {
+    fill: #a6e3a1;
+}
+
+:not(._1Pb6PMh_3L5p5NzuUz0Pp9)>._3cI5TXsFX3bvpR-7EBOtxq>._2AzIX5kl9k6JnxLfR5H4kX:hover div {
+    color: #a6e3a1;
+}
+
+
+/*Featured Major Update News Container*/
+/*-------------------------------------------*/
+
+/*Top Bar*/
+.UVeN0kaD3zv1feMj_mMw5 ._1WdC0YUP8FT0dYWZ-QIVZL {
+    background: linear-gradient(to right, #f5c2e7 0%, #f5c2e780 18%, #f5c2e7 50%, #f5c2e781 100%);
+    color: #464d58;
+}
+
+/*Major Update Text*/
+._29bW1yCn25VTm4bFameBaV {
+    color: #cba6f7;
+}
+
+/*Background Border*/
+.UVeN0kaD3zv1feMj_mMw5._3xi-HLpFVHaakihoqhQ_6C {
+    border-image: none;
+    box-shadow: none;
+    background: #cba6f7;
+}
+
+
+
+/*-------------------------------------------*/
+
+
+/*=====================================================================================*/
+
 
 
 
