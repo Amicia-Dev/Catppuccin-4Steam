@@ -1,6 +1,6 @@
 # Catppuccin-4Steam
 
-# OBS! This is heavily WIP, only friends list is finished + almost library tab.
+# This is heavily WIP, only friends list is finished + almost library tab.
 
 > A theme for Steam, based on the Catppuccin Mocha Palette.
 
