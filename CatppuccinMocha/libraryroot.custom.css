@@ -25,6 +25,9 @@ body {
     color: #cdd6f4;
 }
 
+.DialogBodyText {
+    color: #9399b2;
+}
 
 
 /*Top of steam / tab list*/
@@ -250,11 +253,26 @@ top: 11px;
  .ingame ._3xUpb5DWXPFNcHHIcv-9pe {
      background: linear-gradient(to bottom, #a6e3a1 0%, #a6e3a1 30%, #a6e3a1 70%, #a6e3a1 100%);
  }
+
+/*Game poster glare*/
+.MyNb5dG3FsBnKdp8j_ntk {
+    display: none;
+}
+._54PuCatl_tYG836TOs4Mv :hover .MyNb5dG3FsBnKdp8j_ntk {
+    display:none;
+}
+
  /*=====================================================================================*/
  
  
+.QO8XpcXyf6i06ZtmHfFA3 ._3eZ2geN87clv6TGPMJI0qs {
+    color: #cba6f7;
+}
 
-
+.QO8XpcXyf6i06ZtmHfFA3 ._158pN0u30Fddq7XVASpxEe {
+    color: #cba6f7;
+    box-shadow: 0px 0px 8px 1px rgb(147 50 235 / 80%), 0px 0px 16px 1px rgb(120 50 180 / 30%);
+}
 
 
 /*Left side games list & categories*/
@@ -430,7 +448,7 @@ top: 11px;
 
 /*"Exit search" dropdown button bg colour. (Pops up from canceling advanced filter search)*/
 .DesktopUI .PP7LM0Ow1K5qkR8WElLpt, ._3qIuY9S_vXm3IQS-uE9SRS .PP7LM0Ow1K5qkR8WElLpt {
-    background: #45475a;
+    background: #313244;
 }
 /*"Exit search" dropdown button, while hover*/
 .DesktopUI .PP7LM0Ow1K5qkR8WElLpt, ._3qIuY9S_vXm3IQS-uE9SRS .PP7LM0Ow1K5qkR8WElLpt:hover {
@@ -734,8 +752,6 @@ div.ModalPosition_TopBar {
 
 
 
-
-
 /*Inside Selected Game Screen*/
 /*=====================================================================================*/
 
@@ -750,10 +766,22 @@ div.ModalPosition_TopBar {
     transition: 0.3s;
 }
 
-/*On hover border*/
-._2Dd4T78PcCTUVgOtDGFY5j:hover {
+/*Container transparent border on hover*/
+._2iE-78WxX2Pj4GHbq7YJiA {
+    border: transparent solid 1px;
+    transition: 0.3s;
+}
+
+._2iE-78WxX2Pj4GHbq7YJiA:hover {
     border: solid #cba6f7 1px;
 }
+
+
+/*Make scrollbar invisible*/
+._3lDczhulqraStjCitLYJ1K.Body._2l416KfEtI4CL0mCUEmOBw.ScrollContainer._3FmxxjyWNHU1PrBGnBe6tm.Glassy::-webkit-scrollbar {
+    display: none;
+}
+
 
 /*Background*/
 ._2OOzYVWIHaKXm6_7sscT9i .OhSdLYuggDtBcWjYP0j_9 {
@@ -813,23 +841,25 @@ div.HighPerfMode ._2l416KfEtI4CL0mCUEmOBw {
 }
 
 /*Play button*/
-._3cI5TXsFX3bvpR-7EBOtxq>._2AzIX5kl9k6JnxLfR5H4kX {
+._3cI5TXsFX3bvpR-7EBOtxq>._2AzIX5kl9k6JnxLfR5H4kX:not(._3cI5TXsFX3bvpR-7EBOtxq>._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi) {
     background: none;
     border-radius: 0px;
-    border: #a6e3a1 solid 1px
+    border: #a6e3a1 solid 1px;
+    transition: 0.2s;
+    margin-right: 10px;
 }
 
 /*Play button on hover*/
-:not(._1Pb6PMh_3L5p5NzuUz0Pp9)>._3cI5TXsFX3bvpR-7EBOtxq>._2AzIX5kl9k6JnxLfR5H4kX:hover {
+:not(._1Pb6PMh_3L5p5NzuUz0Pp9)>._3cI5TXsFX3bvpR-7EBOtxq>._2AzIX5kl9k6JnxLfR5H4kX:not(._3cI5TXsFX3bvpR-7EBOtxq>._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi):hover {
     background: none;
     transform: scale(1.05);
 }
 
+
 /*Play button play symbol colour*/
 ._3cI5TXsFX3bvpR-7EBOtxq>._2AzIX5kl9k6JnxLfR5H4kX svg {
     fill: #cdd6f4;
-    margin-right: 15px;
-    margin-left: -12px;
+    margin-left: 0px;
 }
 
 /*Play button play symbol on hover colour*/
@@ -840,6 +870,146 @@ div.HighPerfMode ._2l416KfEtI4CL0mCUEmOBw {
 :not(._1Pb6PMh_3L5p5NzuUz0Pp9)>._3cI5TXsFX3bvpR-7EBOtxq>._2AzIX5kl9k6JnxLfR5H4kX:hover div {
     color: #a6e3a1;
 }
+
+
+
+
+
+/*Secondary play options button (Only appears on some games)*/
+._3cI5TXsFX3bvpR-7EBOtxq>._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi {
+    background: none;
+    border-radius: 0px;
+}
+
+/*Secondary play options button on hover*/
+:not(._1Pb6PMh_3L5p5NzuUz0Pp9)>._3cI5TXsFX3bvpR-7EBOtxq>._2AzIX5kl9k6JnxLfR5H4kX:hover {
+    background: none;
+}
+
+/*Secondary play options button positioning*/
+._2q-gZ3XJzlvSGHSF-GvSmi {
+    margin-left: 0px;
+    padding: 0 5px 0 5px;
+}
+
+/*Secondary play options button dropdown text colour*/
+.DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI, ._3qIuY9S_vXm3IQS-uE9SRS ._1n7Wloe5jZ6fSuvV18NNWI {
+    color: #cdd6f4;
+}
+
+/*Secondary play options button dropdown arrow colour*/
+._1mpeIo_E-qVxqb3DeRrQvl {
+    filter: invert(79%) sepia(40%) saturate(100%) hue-rotate(231deg) brightness(103%)
+}
+
+
+
+
+
+
+/*Install game button background*/
+._2AzIX5kl9k6JnxLfR5H4kX {
+    background: none;
+}
+
+/*Install game button background on hover*/
+:not(._1Pb6PMh_3L5p5NzuUz0Pp9)>._2AzIX5kl9k6JnxLfR5H4kX:hover {
+    background: none;
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+/*Install game button text*/
+._3ydigb6zZAjJ0JCDgHwSYA ._33cnXIqTRgRr49_FNXIHj6 {
+    color: #f9e2af;
+}
+
+/*Install game button text on hover*/
+:not(._1Pb6PMh_3L5p5NzuUz0Pp9)>._2AzIX5kl9k6JnxLfR5H4kX:hover ._33cnXIqTRgRr49_FNXIHj6 {
+    color: #fab387;
+}
+
+/*Install game button symbol*/
+:not(._1Pb6PMh_3L5p5NzuUz0Pp9)>._2AzIX5kl9k6JnxLfR5H4kX svg {
+    fill: #f9e2af;
+    color: #f9e2af;
+}
+
+/*Install game button symbol on hover*/
+:not(._1Pb6PMh_3L5p5NzuUz0Pp9)>._2AzIX5kl9k6JnxLfR5H4kX:hover svg {
+    fill: #fab387;
+    color: #fab387;
+}
+
+
+/*Install game popup*/
+/*-------------------------------------------*/
+
+/*Disk selector buttons colour*/
+.DesktopUI .Oo5JPcEk_erKEYAzYp2nY {
+    background: none;
+    color: #585b70;
+}
+
+/*Disk selector buttons colour on hover*/
+.DesktopUI .Oo5JPcEk_erKEYAzYp2nY:hover {
+    background: none;
+    color: #9399b2;
+}
+
+/*Disk selector buttons colour (Selected)*/
+.DesktopUI .Oo5JPcEk_erKEYAzYp2nY.gkgG-dWgjpwS_aqlcMNTM {
+    background: none;
+    color: #f2cdcd;
+}
+
+
+
+
+/*Achievement progress bar*/
+._25YVDTaClw6Y2COPsU0UaV ._1FnTqlsi2_-TJf1d5apoS6 {
+    background-color: #cba6f7;
+}
+
+
+/*Achievement progress bar 2*/
+._3ns9185LizH61StaAXuAp6 ._3Rm36_oeAhvIg6ZYP9l1Jj {
+    background-color: #cba6f7;
+}
+
+
+/*-------------------------------------------*/
+
+
+
+
+/*Top sticky Play button bar thingy when scrolling down*/
+/*-------------------------------------------*/
+._39RheXihcN6H2k2muQTjkI ._3DeO92O5aVkcdwEBCJDjWm {
+    margin-top: 0;
+    margin-left: 1px;
+    padding-bottom: 15px;
+    border-bottom: solid #cba6f7 1px;
+}
+
+/*Make bottom border correct width*/
+._2L3s2nzh7yCnNESfI5_dN1 {
+    width: calc(100% - 2px);
+}
+
+/*Weird line underneath play button bar thingy*/
+._2_86QNCjVvJTL3Qe6Xztx_._2sKVnd_AUg44QSdoAp8Lne {
+    opacity: 0;
+}
+
+/*Height correction*/
+._2L3s2nzh7yCnNESfI5_dN1.jnXtv79jL6SXXwlJYPtQz {
+    top: 1px;
+}
+
+
+/*-------------------------------------------*/
+
 
 
 /*Featured Major Update News Container*/
@@ -863,9 +1033,209 @@ div.HighPerfMode ._2l416KfEtI4CL0mCUEmOBw {
     background: #cba6f7;
 }
 
+._1AYE16384J_ecLpN0sEYc5 {
+    border-image-source: none;
+    background: none;
+    box-shadow: none;
+}
+
+
+/*Article background*/
+._1HZy7BvOZuPT8feUwadL4W {
+    background: none;
+    border: solid transparent 1px;
+    transition: 0.3s;
+}
+
+ /*Article border colour, when hover*/
+._1HZy7BvOZuPT8feUwadL4W:hover {
+    background: none;
+    border: solid #cba6f7 1px;
+}
 
 
 /*-------------------------------------------*/
+
+
+/*Other activity containers and stuff*/
+/*-------------------------------------------*/
+
+/*Lines between activity dates*/
+.S2Fu9HxHCA5MaCLGrN2ib ._19LfMT7PFWg2xHOqNjR99q ._3pcPRPvuGH7hEM33zLknZO {
+    display: none;
+}
+
+._3QRf-tp5VddAF00vWY5Gn8 {
+    background: none;
+    border: solid transparent 1px;
+    transition: 0.3s;
+}
+
+/*Remove hover background from small activity update containers*/
+._3QRf-tp5VddAF00vWY5Gn8:hover {
+    background: none;
+    border: solid #cba6f7 1px;
+    transition: 0.3s;
+}
+
+
+
+
+
+/*You've played for x hours, recommend or not container*/
+/*-------------------------------------------*/
+
+
+/*Background*/
+._3LE-6w1ItIAB4CKJFCa3Od, ._2SAb6geDpe6toA1GaP0GjH {
+    background-color: transparent;
+    color: transparent;
+}
+
+/*Main text*/
+._2SAb6geDpe6toA1GaP0GjH ._2aeAnRfwltWfd9Hb9M_1uE .qX4kNo6O0M-mYntdErKSJ {
+    color: #fab387;
+}
+
+/*Lower text*/
+._2SAb6geDpe6toA1GaP0GjH .My1beniJXh9pXud8rxYLK {
+    color: #cdd6f4;
+}
+
+/*Ratings buttons*/
+._1kCN0pAntrcGCSmcc-vYdk {
+    background: rgb(0 0 0 / 0%);
+    color: #cdd6f4;
+    border-radius: 0px;
+    border: solid #cba6f7 2px;
+}
+
+._2Jkk-4RGWzhce22lSnA9Em {
+    fill: #cdd6f4;
+}
+
+
+/*Ratings buttons on hover*/
+._1kCN0pAntrcGCSmcc-vYdk:not(.Z3L6KGVxi4ZjGUzbYUjBC):hover {
+    background: none;
+    color: #cba6f7;
+    border-radius: 0px;
+    border: solid #cba6f7 2px;
+}
+
+._1kCN0pAntrcGCSmcc-vYdk:not(.Z3L6KGVxi4ZjGUzbYUjBC):hover ._2Jkk-4RGWzhce22lSnA9Em {
+    fill: #cba6f7;
+}
+
+/*Ratings buttons text on hover*/
+._1kCN0pAntrcGCSmcc-vYdk span:hover {
+    color: #cba6f7;
+}
+
+
+/*Review menu after pressing "You've played for x hours, recommend or not container"  buttons*/
+/*-------------------------------------------*/
+
+/*Program name text*/
+._27mfPohuGzwxwaotA5Pk9 {
+    color: #cba6f7;
+}
+
+/*Selected rating buttons at top right of menu*/
+._1kCN0pAntrcGCSmcc-vYdk.Z3L6KGVxi4ZjGUzbYUjBC {
+    background: #eba0ac;
+    color: #313244;
+    font-weight: 500;
+}
+
+._2Jkk-4RGWzhce22lSnA9Em.Z3L6KGVxi4ZjGUzbYUjBC {
+fill: #313244;
+}
+
+
+
+
+/*Text box*/
+.sK8bmf5vWULFzqtbyJO59 ._392iEmqj65Eac9ealm4Pmi {
+    border: 1px solid transparent;
+}
+._392iEmqj65Eac9ealm4Pmi {
+    background: #45475a;
+    color: #cdd6f4;
+    font-family: Modenine;
+}
+
+
+
+
+
+/*"Visibility" dropdown*/
+._30wJO3MC4x-I1OWpy1TAeE._DialogInputContainer {
+    background: #313244;
+}
+
+
+/*Dropdown arrow*/
+.DialogDropDown_Arrow .SVGIcon_DownArrowContextMenu {
+    color: #cba6f7;
+}
+
+/*Dropdown options*/
+._2oAiZidGyUxL-hfupFDQ2m {
+    transition: 0.2s;
+    color: #cdd6f4;
+}
+
+
+/*Dropdown options on focus*/
+._2oAiZidGyUxL-hfupFDQ2m:focus {
+    background: transparent;
+    transform: scale(1.1);
+    transition: 0.2s;
+    color: #cba6f7;
+}
+
+/*Checkboxes*/
+.DialogCheckbox .SVGIcon_DialogCheck {
+    filter: invert(88%) sepia(22%) saturate(83%) hue-rotate(293deg) brightness(101%) contrast(92%);
+}
+
+/*Checkboxes*/
+.DialogCheckbox.Active .SVGIcon_DialogCheck {
+    filter: invert(88%) sepia(22%) saturate(83%) hue-rotate(293deg) brightness(101%) contrast(92%);
+}
+
+
+
+
+
+/*If press "no" button menu colours*/
+.lNPFwADeWOcU-YOPlwMzV {
+    background: #313244;
+}
+
+/*Buttons*/
+.lNPFwADeWOcU-YOPlwMzV ._2gJ9F_Ox8xa-jD-JD0eNrB {
+    background: #585b70;
+}
+
+/*Button text*/
+.lNPFwADeWOcU-YOPlwMzV ._2gJ9F_Ox8xa-jD-JD0eNrB ._3pmHHmcQS21JkPm0i-p9BR {
+    color: #f5c2e7;
+}
+
+
+/*-------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
 
 
 /*=====================================================================================*/
