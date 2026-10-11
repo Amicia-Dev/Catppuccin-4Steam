@@ -271,6 +271,7 @@ top: 11px;
 
 .QO8XpcXyf6i06ZtmHfFA3 ._158pN0u30Fddq7XVASpxEe {
     color: #cba6f7;
+    background: #cba6f7;
     box-shadow: 0px 0px 8px 1px rgb(147 50 235 / 80%), 0px 0px 16px 1px rgb(120 50 180 / 30%);
 }
 
@@ -315,6 +316,13 @@ top: 11px;
 ._2sYIghGVXJr6tsQVvcryy8:hover {
     background: #181825;
 }
+
+/*Colour for hovering over category with too long name*/
+._2sYIghGVXJr6tsQVvcryy8._2zGph-MSF37bUmk_Qlu_XG {
+    background: #313244;
+    border-radius: 0px;
+}
+
 /*Colour & style for selected category*/
 ._2sYIghGVXJr6tsQVvcryy8.sXMOsx8OIRalBMxO9yFY5 {
     background: #313244;
@@ -330,6 +338,51 @@ top: 11px;
 /*Not installed game name colour*/
 ._2-O4ZG0KrnSrzISHBKctFQ._5YTBr7WwIfzVU_3nUtAph {
     color: #585b70;
+}
+
+/*Remove scrollbar from left side games list*/
+.ReactVirtualized__Grid__innerScrollContainer::-webkit-scrollbar {
+    display: none;
+    
+}
+
+/*Selected installed game name colour*/
+._1UBpAXP408Ez_L_mXhW5Q9._2-O4ZG0KrnSrzISHBKctFQ, ._1UBpAXP408Ez_L_mXhW5Q9 ._2-O4ZG0KrnSrzISHBKctFQ {
+    background-color: transparent;
+    box-shadow: none;
+    border-bottom: solid 1px #f5c2e7;
+}
+
+/*Selected non-installed game name colour*/
+._2-O4ZG0KrnSrzISHBKctFQ._1UBpAXP408Ez_L_mXhW5Q9._5YTBr7WwIfzVU_3nUtAph, ._1UBpAXP408Ez_L_mXhW5Q9 ._2-O4ZG0KrnSrzISHBKctFQ._5YTBr7WwIfzVU_3nUtAph {
+    color: #9399b2;
+}
+
+/*Selected game text colour*/
+._2-O4ZG0KrnSrzISHBKctFQ._1UBpAXP408Ez_L_mXhW5Q9._2ws8DONH9fxQjPXEmRpujE {
+    color: #f5c2e7;
+}
+
+/*Selected game hover*/
+._1UBpAXP408Ez_L_mXhW5Q9._2-O4ZG0KrnSrzISHBKctFQ:hover, ._1UBpAXP408Ez_L_mXhW5Q9._2-O4ZG0KrnSrzISHBKctFQ._3cMVyOc-9F9Jvp3uKF7_xj, ._1UBpAXP408Ez_L_mXhW5Q9._2-O4ZG0KrnSrzISHBKctFQ :hover, ._1UBpAXP408Ez_L_mXhW5Q9 ._2-O4ZG0KrnSrzISHBKctFQ:hover, ._1UBpAXP408Ez_L_mXhW5Q9 ._2-O4ZG0KrnSrzISHBKctFQ._3cMVyOc-9F9Jvp3uKF7_xj, ._1UBpAXP408Ez_L_mXhW5Q9 ._2-O4ZG0KrnSrzISHBKctFQ :hover {
+    background-color: #313244;
+    box-shadow: none;
+}
+
+._3vg1vYU7iTWqONciv9cuJN._1Ye_0niF2UqB8uQTbm8B6B {
+    margin-left: 1px;
+}
+
+/*Hover over game*/
+._2-O4ZG0KrnSrzISHBKctFQ:hover, ._2-O4ZG0KrnSrzISHBKctFQ._3cMVyOc-9F9Jvp3uKF7_xj {
+    background: #313244;
+}
+
+/*Hover over game with long name*/
+._2-O4ZG0KrnSrzISHBKctFQ._3cMVyOc-9F9Jvp3uKF7_xj {
+    background-color: #313244;
+    border-radius: 0px;
+    
 }
 /*=====================================================================================*/
 
@@ -921,26 +974,34 @@ div.HighPerfMode ._2l416KfEtI4CL0mCUEmOBw {
 
 /*Install game button text*/
 ._3ydigb6zZAjJ0JCDgHwSYA ._33cnXIqTRgRr49_FNXIHj6 {
-    color: #f9e2af;
+    color: #f5e0dc;
 }
 
 /*Install game button text on hover*/
 :not(._1Pb6PMh_3L5p5NzuUz0Pp9)>._2AzIX5kl9k6JnxLfR5H4kX:hover ._33cnXIqTRgRr49_FNXIHj6 {
-    color: #fab387;
+    color: #f9e2af;
 }
 
 /*Install game button symbol*/
 :not(._1Pb6PMh_3L5p5NzuUz0Pp9)>._2AzIX5kl9k6JnxLfR5H4kX svg {
-    fill: #f9e2af;
-    color: #f9e2af;
+    fill: #f5e0dc;
+    color: #f5e0dc;
 }
 
 /*Install game button symbol on hover*/
 :not(._1Pb6PMh_3L5p5NzuUz0Pp9)>._2AzIX5kl9k6JnxLfR5H4kX:hover svg {
-    fill: #fab387;
-    color: #fab387;
+    fill: #f9e2af;
+    color: #f9e2af;
 }
 
+/*Secondarry install game button (Only appears on some games)*/
+/*-------------------------------------------*/
+
+/* Secondary install game button background*/
+._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi {
+    background: none;
+    border-radius: 0px;
+}
 
 /*Install game popup*/
 /*-------------------------------------------*/
