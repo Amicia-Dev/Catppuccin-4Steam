@@ -39,6 +39,14 @@ body {
     background: #11111b;
 }
 
+/*Footer progress bar*/
+._2_FomluqqgQ2Hx8ON3AVep .wi0pDywRgOCxhG7OqQNaA {
+    height: 4px;
+    --color-progress-bar-foreground: #cba6f7;
+    --color-progress-bar-background: #1e1e2e;
+    border-radius: 0px;
+}
+
 
 /*CSS for global styles ENDS HERE======================================================*/
 /*=====================================================================================*/
@@ -135,6 +143,25 @@ top: 11px;
 ._2gSXCB6PbOlMxslr8hm6dm {
     background-image: linear-gradient(to bottom, #11111b 0%, #11111b 20%, #11111b 60%);
 }
+
+/*"What's New" game name box bg colour*/
+._3_xMyCJAh_Dv99KgZ54P3j {
+    background-color: transparent;
+}
+/*"What's New" game name box bg colour on hover*/
+._3_xMyCJAh_Dv99KgZ54P3j:hover {
+    background-color: transparent;
+
+}
+
+/*"What's New" game name box text colour*/
+._3_xMyCJAh_Dv99KgZ54P3j ._28IqrZIgxpqkUQyhdaLDUN {
+    color: #cdd6f4;
+}
+
+
+
+
 /*=====================================================================================*/
 
 
@@ -190,12 +217,18 @@ top: 11px;
 /*=====================================================================================*/
 /*Play button background colour*/
 ._3AjoLnMNKxYmNTGTJCLfgs._1_Bo2Ied5s2Od4YKYTOsau:not(._1aml4h4CSJbtrNbX4brUYs) {
-    background: radial-gradient(circle farthest-corner at 50% 50%, #cba6f77e 0%, #cba6f77e 100%);
+    background: transparent;
+    border: solid #eba0ac 3px;
+    border-radius: 0px;
     transition: 0.3s;
+    width: 50px;
+    height: 50px;
 }
 /*Play button background colour, when hover */
 ._54PuCatl_tYG836TOs4Mv ._3AjoLnMNKxYmNTGTJCLfgs._1_Bo2Ied5s2Od4YKYTOsau:not(._1aml4h4CSJbtrNbX4brUYs):hover {
-    background: radial-gradient(circle farthest-corner at 50% 50%, #cba6f7a8 0%, #cba6f7af 100%);
+    background: transparent;
+    transform: scale(1.05);
+    transition: 0.3s;
 }
 
 /*Play button icon colour*/
@@ -207,6 +240,16 @@ top: 11px;
     fill: #d78995;
 }
 
+/*Play button size when small screen size*/
+.yGeS63NTeSwJCWS395eIb ._3AjoLnMNKxYmNTGTJCLfgs._3VOR2AeYATx3qSE0I-Pm-5 {
+    width: 35px;
+    height: 35px;
+}
+
+/*Stop game button icon colour*/
+._3AjoLnMNKxYmNTGTJCLfgs .SVGIcon_X_Line {
+    filter: brightness(0) saturate(150%) invert(67%) sepia(10%) saturate(1986%) hue-rotate(296deg) brightness(98%) contrast(95%);
+}
 
 /*"TIME PLAYED" text colour*/
 ._3bkuozxKIatrWG3aeisthc._2zIRlEsAfHhI-_3bZ3X60z {
@@ -217,6 +260,56 @@ top: 11px;
 ._3bkuozxKIatrWG3aeisthc.ma8y_VgPze1mscYhW6-oS, ._3bkuozxKIatrWG3aeisthc._3JWBBEulYkYmDLJr485oex {
     color: rgba(205, 214, 244, 0.658);
 }
+
+/*Pause update/install button bg colour*/
+.xp7A-08Y404Of3FBHqX32 ._3AjoLnMNKxYmNTGTJCLfgs {
+    background: transparent;
+    border: solid #f9e2af 3px;
+}
+
+/*Pause update/install button icon colour*/
+._3AjoLnMNKxYmNTGTJCLfgs .SVGIcon_Pause {
+    fill: #f9e2af;
+}
+
+/*Pause update/install button bg colour, when hover*/
+._54PuCatl_tYG836TOs4Mv .WYgDg9NyCcMIVuMyZ_NBC ._3AjoLnMNKxYmNTGTJCLfgs:hover:not(._1aml4h4CSJbtrNbX4brUYs):not(._1_Bo2Ied5s2Od4YKYTOsau) {
+    background: transparent;
+}
+
+/*Pause update/install button icon colour, when hover*/
+._54PuCatl_tYG836TOs4Mv .WYgDg9NyCcMIVuMyZ_NBC ._3AjoLnMNKxYmNTGTJCLfgs:hover:not(._1aml4h4CSJbtrNbX4brUYs):not(._1_Bo2Ied5s2Od4YKYTOsau) svg {
+    transform: scale(1.2);
+}
+
+/*Resume paused install button icon colour*/
+._3AjoLnMNKxYmNTGTJCLfgs._3yGiLsl__NlNYprnB7rt14 svg, ._3AjoLnMNKxYmNTGTJCLfgs._2PhYbL3_EgtG5edPuoTVtq svg {
+    filter: brightness(0) saturate(100%) invert(92%) sepia(5%) saturate(2079%) hue-rotate(348deg) brightness(99%) contrast(97%);
+}
+
+/*Small fix for blurred part underneath play button and info text*/
+._2d1hSvdpY5L2-GN1EnUb9Z {
+    height: 91px;
+    border-radius: 0 0 10px 10px;
+}
+
+/*Force rounded corners on container*/
+.WYgDg9NyCcMIVuMyZ_NBC._3VOR2AeYATx3qSE0I-Pm-5:not(._3vi6SfAX2Pp-9TVSjvm5Et) {
+    border-radius: 10px;
+}
+
+/*Play button positioning on small screen size*/
+.LibraryDisplaySizeSmall ._3AjoLnMNKxYmNTGTJCLfgs._3VOR2AeYATx3qSE0I-Pm-5, .LibraryDisplaySizeMedium ._3AjoLnMNKxYmNTGTJCLfgs._3VOR2AeYATx3qSE0I-Pm-5 {
+    bottom: 11px;
+    margin-left: 3px;
+}
+
+/*Play button sizing on different screen sizes*/
+._3AjoLnMNKxYmNTGTJCLfgs._3VOR2AeYATx3qSE0I-Pm-5 {
+    width: 50px;
+    height: 50px;
+}
+
 /*=====================================================================================*/
 
 
@@ -286,6 +379,13 @@ top: 11px;
 ._3x1HklzyDs4TEjACrRO2tB {
     background-image: linear-gradient(to top, #1e1e2e 0%, #1e1e2e  80%);
 }
+
+/*Remove scrollbar*/
+.ReactVirtualized__Grid.ReactVirtualized__List::-webkit-scrollbar {
+    display: none;
+}
+
+
 /*Container extend margins and border stuff*/
 ._9sPoVBFyE_vE87mnZJ5aB {
     margin: 11px;
@@ -327,9 +427,7 @@ top: 11px;
 ._2sYIghGVXJr6tsQVvcryy8.sXMOsx8OIRalBMxO9yFY5 {
     background: #313244;
     box-shadow: 0px 0px 0px 0px;
-    border-bottom: solid;
-    border-bottom-color: #f5c2e7;
-    border-bottom-width: 2px;
+    border-bottom: solid #f5c2e7 1px;
 }
 /*Installed game name colour*/
 ._2-O4ZG0KrnSrzISHBKctFQ._2ws8DONH9fxQjPXEmRpujE {
@@ -373,9 +471,25 @@ top: 11px;
     margin-left: 1px;
 }
 
+/*Non-selected game currently installing text colour*/
+._2-O4ZG0KrnSrzISHBKctFQ._1LVQp3h_vGOZ8TuDUEge0k {
+    color: #89b4fa;
+}
+
+/*Selected game currently installing text colour*/
+._2-O4ZG0KrnSrzISHBKctFQ._1UBpAXP408Ez_L_mXhW5Q9._1LVQp3h_vGOZ8TuDUEge0k, ._1UBpAXP408Ez_L_mXhW5Q9 ._2-O4ZG0KrnSrzISHBKctFQ._1LVQp3h_vGOZ8TuDUEge0k {
+    color: #f5c2e7;
+}
+
+/*Hover over non-installed game text colour*/
+._2-O4ZG0KrnSrzISHBKctFQ._5YTBr7WwIfzVU_3nUtAph:hover, ._2-O4ZG0KrnSrzISHBKctFQ._5YTBr7WwIfzVU_3nUtAph._3cMVyOc-9F9Jvp3uKF7_xj {
+    color: #9399b2;
+}
+
 /*Hover over game*/
 ._2-O4ZG0KrnSrzISHBKctFQ:hover, ._2-O4ZG0KrnSrzISHBKctFQ._3cMVyOc-9F9Jvp3uKF7_xj {
     background: #313244;
+    border-bottom: solid #f5c2e7 1px;
 }
 
 /*Hover over game with long name*/
@@ -384,6 +498,45 @@ top: 11px;
     border-radius: 0px;
     
 }
+
+
+/*Text colour for game that failed steam cloud sync*/
+._2-O4ZG0KrnSrzISHBKctFQ._26PT_OTo7-JDunJWeZgjT8 {
+    color: #f9e2af;
+}
+
+/*Icon colour for game that failed steam cloud sync*/
+._2-O4ZG0KrnSrzISHBKctFQ ._1vO6BoiVslZgs1kqDGdUs8 svg:not(.SVGIcon_FriendIcon) polyline, ._2-O4ZG0KrnSrzISHBKctFQ ._1vO6BoiVslZgs1kqDGdUs8 svg:not(.SVGIcon_FriendIcon) path {
+    fill: #f9e2af;
+}
+
+
+/*Game being played text colour*/
+._2-O4ZG0KrnSrzISHBKctFQ._10GdoB3tQXXGFToQ3yY_SK {
+    color: #a6e3a1;
+}
+
+/*Game being updated text colour*/
+._2-O4ZG0KrnSrzISHBKctFQ._1LVQp3h_vGOZ8TuDUEge0k {
+    color: #74c7ec;
+}
+
+/*Game being updated / downloaded mini circle icon progress colour*/
+._2kzMb_F7UTOEdecAFftN-l svg.f6-7-5CWFxNqF2BycKWlb.f6-7-5CWFxNqF2BycKWlb.f6-7-5CWFxNqF2BycKWlb circle {
+    stroke: #f5c2e7;
+}
+
+/*Colour for information text for game that has a special status*/
+._2-O4ZG0KrnSrzISHBKctFQ ._1vO6BoiVslZgs1kqDGdUs8 ._3uk3F1BmAJQR6rl1TPcaif {
+    color: #f9e2af;
+}
+
+/*Colour for dash between game name and status*/
+._2-O4ZG0KrnSrzISHBKctFQ ._1vO6BoiVslZgs1kqDGdUs8 ._2RggXvVkWMDvvxFegjtKso {
+    color: #6c7086;
+}
+
+
 /*=====================================================================================*/
 
 
@@ -457,10 +610,8 @@ top: 11px;
 
 /*Categories dropdown checkmark colour*/
 .EDl_mzaY3WxkgmYVD8W4d ._1BAKXmqQdWRWmWX9_CbhuY._2_iY4UJOlWDXNQ21c-a3hD svg {
-    filter: hue-rotate(45deg);
+    filter: brightness(0) saturate(100%) invert(80%) sepia(9%) saturate(2359%) hue-rotate(302deg) brightness(98%) contrast(88%);
 }
-
-
 
 /*"Sort by recent" & "Show only ready to play" buttons colour*/
 ._1ZS_xta5HMXzR8JgxDH6n7 ._1PgAonvorr0o_NMxNKiDFU ._3mzKdQXht__YHo6PX1LmB6 svg path, ._1ZS_xta5HMXzR8JgxDH6n7 ._1PgAonvorr0o_NMxNKiDFU ._3mzKdQXht__YHo6PX1LmB6 svg line, ._1ZS_xta5HMXzR8JgxDH6n7 ._1PgAonvorr0o_NMxNKiDFU ._3mzKdQXht__YHo6PX1LmB6 svg polyline, ._1ZS_xta5HMXzR8JgxDH6n7 ._1PgAonvorr0o_NMxNKiDFU ._3mzKdQXht__YHo6PX1LmB6 svg circle {
@@ -472,6 +623,32 @@ top: 11px;
 }
 /*=====================================================================================*/
 
+/*Left side games list & categories, right click game context menu*/
+/*=====================================================================================*/
+
+/*Right click game context menu background colour*/
+
+/*Right click game context menu "Install" button colour*/
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Download, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Update, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PreLoad, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Resume, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Pause, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.BorrowApp, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stop, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Cancel, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Install, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PurchaseApp {
+    background: transparent;
+    color: #f5c2e7;
+    transition: 0.2s;
+}
+
+/*Right click game context menu "Install" button colour when hover*/
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Download:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Download:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Update:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Update:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PreLoad:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PreLoad:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Resume:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Resume:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Pause:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Pause:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.BorrowApp:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.BorrowApp:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stop:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stop:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Cancel:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Cancel:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Install:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Install:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PurchaseApp:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PurchaseApp:focus {
+    background: transparent;
+    transform: scale(1.05);
+    transition: 0.2s;
+    filter: brightness(1.1);
+}
+
+/*Right click game context menu, hover over other options*/
+.DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI:hover, .DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI._18z-3vkWndCBO5WJgFldRK, ._3qIuY9S_vXm3IQS-uE9SRS ._1n7Wloe5jZ6fSuvV18NNWI:hover, ._3qIuY9S_vXm3IQS-uE9SRS ._1n7Wloe5jZ6fSuvV18NNWI._18z-3vkWndCBO5WJgFldRK {
+    background: transparent;
+    color: #f5c2e7;
+}
+
 
 
 
@@ -480,7 +657,8 @@ top: 11px;
 
 /*Removed bottom border*/
 ._20QAC4WMXm8qFE8waUT5oo ._12vo5L1hsNGdao6_ssuirS .DialogTextInputBase {
-    border-bottom: solid transparent 1px;
+    border-bottom: none;
+    padding-top: 3px;
 }
 
 
@@ -491,7 +669,9 @@ top: 11px;
 
 /*Search bar background colour when hover*/
 ._20QAC4WMXm8qFE8waUT5oo ._12vo5L1hsNGdao6_ssuirS .DialogTextInputBase:hover {
-    background-color: #45475a;
+    background-color: transparent;
+    border-bottom: none;
+    box-shadow: none;
 }
 
 /*Search bar text colour*/
@@ -523,6 +703,10 @@ top: 11px;
     background-color: #45475a;
 }
 
+._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU ._1dgAMymUAUYzUcZjUjOFm7:before {
+    background-color: transparent;
+}
+
 /*Button background colour while popup open*/
 ._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU ._2rILnoW6swWh4_9TDWWc31 {
     background-color: #eba0ac;
@@ -532,6 +716,18 @@ top: 11px;
 ._172OFJhtx4Jt2ydY6-9IUm {
     color: #cdd6f4;
 }
+
+/*Don't flatten button corners on active*/
+._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU._31r1_h2SmzwQtP9ZLLyA0I {
+    border-start-end-radius: 4px;
+    border-end-end-radius: 4px;
+}
+
+/*Don't change bg colour when grayed out*/
+._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU._1Gjk27xaRIzt2zOSwOSP0N {
+    background-color: transparent;
+}
+
 /*=====================================================================================*/
 
 
@@ -549,6 +745,11 @@ top: 11px;
     color: #eba0ac;
 }
 
+/*Other labels colour*/
+._170Npw5h84elypMSQ8zNDI ._1axoiZsC1RBp22JQmxiBIc ._3iV2vMTw_vwWJ_gmiz1Q1k {
+    color: #eba0ac;
+}
+
 /*Checkboxes colour, when hover*/
 .DialogCheckbox_Container:hover .DialogCheckbox:not(.Disabled), .DialogCheckbox:hover:not(.Disabled), .DialogCheckbox_Container:focus .DialogCheckbox:not(.Disabled), .DialogCheckbox:focus:not(.Disabled) {
     background-color: #45475a;
@@ -556,8 +757,34 @@ top: 11px;
 
 /*Checkmark colour*/
 ._170Npw5h84elypMSQ8zNDI ._1ennWu_xj2YF8FRYgJ2M2H ._1axoiZsC1RBp22JQmxiBIc ._32e6rHniKd5ztOQ1lYIulu ._1J53P1yXTWlwJRyCAzMQei ._2AOkQORncEi9SJ3FCWnPmY svg {
-    filter: hue-rotate(45deg);
+    filter: invert(88%) sepia(22%) saturate(83%) hue-rotate(293deg) brightness(101%) contrast(92%);
 }
+
+/*"View accesability options" button bg colour*/
+._2GVYKKA0-FikD4ejRjx1Oh ._3TbvbA43LhIlIEKsH7eqhI {
+    background: none;
+    color: #f5e0dc;
+}
+
+/*"View accesability options" button bg colour, while hover*/
+button.DialogButton:hover, button.DialogButton.gpfocus {
+    background: none;
+    color: #eba0ac;
+}
+
+/*"View accesability options" button bg colour, while hover*/
+button.DialogButton::before {
+    box-shadow: none;
+}
+
+/*"View accesability options" button bg colour, while active*/
+button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, button.DialogButton:enabled:active.gpfocus {
+    background: none;
+    box-shadow: none;
+    color: #eba0ac;
+}
+
+
 /*=====================================================================================*/
 
 
@@ -582,6 +809,7 @@ top: 11px;
 /*"Gamepads" selected gamepad text colour*/
 ._2J170P0ckFcUIlsDU13MLS ._DialogInputContainer {
     color: #f5e0dc;
+    background-color: #585b70;
 }
 
 /*"Steam Deck" dropdown selections bg colour, while hover*/
@@ -609,11 +837,11 @@ top: 11px;
 /*=====================================================================================*/
 /*Background colour, while hover*/
 ._170Npw5h84elypMSQ8zNDI ._1ennWu_xj2YF8FRYgJ2M2H ._1axoiZsC1RBp22JQmxiBIc .DialogInput_Wrapper .DialogTextInputBase:hover {
-    background: #24252f;
+    background: #313244;
 }
 /*Background colour & text colour, while focused*/
-._170Npw5h84elypMSQ8zNDI ._1ennWu_xj2YF8FRYgJ2M2H ._1axoiZsC1RBp22JQmxiBIc .DialogInput_Wrapper .DialogTextInputBase.Focusable:focus {
-    background-color: #24252f;
+._170Npw5h84elypMSQ8zNDI ._1axoiZsC1RBp22JQmxiBIc .DialogInput_Wrapper .DialogTextInputBase.Focusable:focus {
+    background-color: #313244;
     color: #cdd6f4;
 }
 /*Dropdown selection background colour*/
@@ -624,6 +852,13 @@ top: 11px;
 .DesktopUI .DialogToggle_Label {
     color: #cdd6f4;
 }
+
+/*In search dropdown bg colour*/
+._170Npw5h84elypMSQ8zNDI ._1axoiZsC1RBp22JQmxiBIc.MIMuVt_bcI4rYVo1e14kR ._32e6rHniKd5ztOQ1lYIulu {
+    background-color: #313144;
+}
+
+
 /*=====================================================================================*/
 
 
@@ -633,12 +868,23 @@ top: 11px;
 /*=====================================================================================*/
 /*"Save as Dynamic Collection" button background colour*/
 button.DialogButton.Primary {
-    background: linear-gradient(to right, #eba0ac 0%, #eba0adb4 60%);
+    background: transparent;
+    border: solid #eba0ac 1px;
+    color: #eba0ac;
+    transition: 0.2s;
 }
 
 /*"Save as Dynamic Collection" button background colour, while hover*/
 button.DialogButton.Primary:hover, button.DialogButton.Primary.gpfocus {
-    background: linear-gradient(to right, #eba0ad91 0%, #eba0ad94 60%);
+    background: transparent;
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+/*"Save as Dynamic Collection" button background colour, while grayed out"*/
+._170Npw5h84elypMSQ8zNDI ._1bqGAcZx1C71VYj14hz0po.Disabled, ._170Npw5h84elypMSQ8zNDI ._1bqGAcZx1C71VYj14hz0po:disabled, ._170Npw5h84elypMSQ8zNDI ._1bqGAcZx1C71VYj14hz0po:disabled:hover {
+    background: none;
+    border: solid #cfb7bb8f 1px;
 }
 /*=====================================================================================*/
 
@@ -705,6 +951,42 @@ button.DialogButton.Primary:hover, button.DialogButton.Primary.gpfocus {
 ._1J21tLst5SEhBPkVRT53UV {
 margin-bottom: -5px;
 }
+
+
+/*"Sort By" button bg colour*/
+._1tBzypb5E2AwNuBuVns9Hl ._DialogInputContainer .DialogDropDown_CurrentDisplay {
+    background-color: transparent;
+    color: #cdd6f4;
+}
+/*"Sort By" button arrow bg colour*/
+._1tBzypb5E2AwNuBuVns9Hl ._DialogInputContainer .DialogDropDown_Arrow {
+    background-color: transparent;
+}
+
+/*"Sort By" button arrow colour"*/
+._1tBzypb5E2AwNuBuVns9Hl ._DialogInputContainer .DialogDropDown_Arrow svg {
+    fill: #cdd6f4;
+}
+
+
+/*"Sort BY" button dropdown bg colour*/
+._1ZpBQtDqcKBbfIIv01Vs1R>div.DesktopUI, .DesktopUI ._1ZpBQtDqcKBbfIIv01Vs1R>div {
+    background: #313244 !important;
+}
+
+/*"Sort BY" button dropdown text colour*/
+._1ZpBQtDqcKBbfIIv01Vs1R ._1ZtpSq62fy_8W-_0pMn5cu.DesktopUI, .DesktopUI ._1ZpBQtDqcKBbfIIv01Vs1R ._1ZtpSq62fy_8W-_0pMn5cu {
+    color: #cdd6f4;
+}
+
+/*"Sort BY" button dropdown bg colour when hover*/
+._1ZpBQtDqcKBbfIIv01Vs1R ._1ZtpSq62fy_8W-_0pMn5cu:focus.DesktopUI, .DesktopUI ._1ZpBQtDqcKBbfIIv01Vs1R ._1ZtpSq62fy_8W-_0pMn5cu:focus {
+    background: none;
+    color: #eba0ac;
+}
+
+
+
 /*=====================================================================================*/
 
 
@@ -791,13 +1073,9 @@ div.ModalPosition_TopBar {
 
 /*Input Box Bg Colour On Focus*/
 .DesktopUI .DialogTextInputBase:focus, .DialogTextInputBase:focus-within {
-    background: #313244;
+    box-shadow: none;
 }
 
-/*Input Box Bg Colour On Hover*/
-.DialogTextInputBase:not(:disabled):hover {
-    background: #11111bd3;
-}
 
 /*-----------------------------------*/
 
@@ -854,6 +1132,22 @@ div.HighPerfMode ._2l416KfEtI4CL0mCUEmOBw {
     background: #1e1e2e;
 }
 
+
+/*Set favourite game button colour*/
+._3qDWQGB0rtwM3qpXTb11Q-._21hXW2oDD7zvNsoOaW7Yob._2WaHZuAetbqENmqDthu3nl svg path {
+    stroke: #eba0ac;
+    fill: #eba0ac;
+}
+
+
+/*Game out of sync icon colour*/
+.q_Xpj_ztkqZCfOIksH3UR {
+    filter: brightness(0) saturate(100%) invert(92%) sepia(5%) saturate(2079%) hue-rotate(348deg) brightness(99%) contrast(97%);
+}
+
+.DesktopUI .DialogFooter button.DialogButton {
+    background: none;
+}
 
 /*Navbar + Friends who play bg stuff*/
 ._31ptFGGMZrSQc5BCX1e5lm._3KfxIwlXEvum7FCD_AM2_t {
@@ -952,7 +1246,7 @@ div.HighPerfMode ._2l416KfEtI4CL0mCUEmOBw {
 
 /*Secondary play options button dropdown arrow colour*/
 ._1mpeIo_E-qVxqb3DeRrQvl {
-    filter: invert(79%) sepia(40%) saturate(100%) hue-rotate(231deg) brightness(103%)
+    filter: invert(88%) sepia(22%) saturate(74%) hue-rotate(293deg) brightness(101%) contrast(92%);
 }
 
 
@@ -975,6 +1269,7 @@ div.HighPerfMode ._2l416KfEtI4CL0mCUEmOBw {
 /*Install game button text*/
 ._3ydigb6zZAjJ0JCDgHwSYA ._33cnXIqTRgRr49_FNXIHj6 {
     color: #f5e0dc;
+    margin-right: 3px;
 }
 
 /*Install game button text on hover*/
@@ -1101,6 +1396,11 @@ div.HighPerfMode ._2l416KfEtI4CL0mCUEmOBw {
 }
 
 
+/*Background colour*/
+.UVeN0kaD3zv1feMj_mMw5.By7D93oEZkZtBeg23NDoR._3xi-HLpFVHaakihoqhQ_6C {
+    background: #cba6f714;
+}
+
 /*Article background*/
 ._1HZy7BvOZuPT8feUwadL4W {
     background: none;
@@ -1138,6 +1438,69 @@ div.HighPerfMode ._2l416KfEtI4CL0mCUEmOBw {
     border: solid #cba6f7 1px;
     transition: 0.3s;
 }
+
+/*-------------------------------------------*/
+
+
+/*Inside activity articles*/
+/*-------------------------------------------*/
+
+/*Inside activity articles, Main body*/
+._1KsYSVzmvIfRivBTcx-_GE {
+    background-color: #1e1e2e;
+    border-radius: 0px;
+    background-image: none;
+    border: solid #cba6f7 1px;
+}
+
+
+._3_SEiDNs-lzwV7cTF6gcgt ._3z2NYCkFizMu4fMvWTIBUG {
+    background: #1e1e2e;
+}
+
+
+/*Remove background image/bg*/
+.stsss-bTNuazY8FYtvTOX {
+    display: none;
+}
+
+/*Small information texts at top of article*/
+._3bWTO29arCCJ6PBGRZ7fRy ._2WwG2r8yZuu2EMJgFTQZp8 .Udzrpqr8534T5DvVZveNP {
+    color:  #89b4fa;
+}
+._4LAnPYKRPeF-QDReu_VGm, .MBkkhT4wei3tWetnWbiqn {
+    color:  #7f849c;
+}
+
+
+/*Border between title and contents of article*/
+.ZHAfj0MPg1zDLXRnCzSsx {
+    box-shadow: 0px 6px 11px 8px rgb(0 0 0 / 32%);
+    border-bottom: solid #cba6f7 1px;
+}
+
+/*Article title*/
+.TqEPC9bhvVpZ1rb3Z8Mbd {
+    color: #f9e2af;
+}
+
+/*Article title subtext*/
+._20f2sKS2M7PlPSnPCinT26 {
+    color: #a6adc8;
+}
+
+/*Normal article text*/
+.A_A2B6fTn_MPLlGCmsLtd {
+    color: #cdd6f4;
+}
+
+/*Bigger article text*/
+div.SPYFj8pCLpNmnuQJEDobC, div.QuKtTJ4LCPUlQeWYfLNyX, div._3s7cUqglDds9wzcWb7OLz6, h1.SPYFj8pCLpNmnuQJEDobC, h2.QuKtTJ4LCPUlQeWYfLNyX, h3._3s7cUqglDds9wzcWb7OLz6 {
+    color: #cdd6f4;
+}
+
+
+/*-------------------------------------------*/
 
 
 
