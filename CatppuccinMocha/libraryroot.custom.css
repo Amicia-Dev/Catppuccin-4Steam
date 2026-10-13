@@ -33,10 +33,19 @@ body {
 /*Top of steam / tab list*/
 ._3Z7VQ1IMk4E3HsHvrkLNgo {
     background-color: #11111b;
+    box-shadow: none;
 }
 /*Bottom of steam / footer*/
 ._3vCzSrrXZzZjVJFZNg9SGu {
     background: #11111b;
+    box-shadow: inset #1e1e2e 0px 1px 0px 0px;
+}
+
+
+/*Footer progress bar text*/
+.ip-YZhijAMZcuRoXBGiye ._1sCy-pm412Smb0wJx0W-4 {
+    color: #6c7086;
+    margin-bottom: 2px;
 }
 
 /*Footer progress bar*/
@@ -45,6 +54,12 @@ body {
     --color-progress-bar-foreground: #cba6f7;
     --color-progress-bar-background: #1e1e2e;
     border-radius: 0px;
+}
+
+::selection {
+    background: #f5c2e7;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, .6666666667);
+    color: #1e1e2e;
 }
 
 
@@ -107,6 +122,12 @@ body {
 .RGNMWtyj73_-WdhflrmuY ._2CmrnGY-Amtd83ScJkFvx2 {
     background: #11111b;
 }
+
+/*Fix weird invisible area*/
+.RGNMWtyj73_-WdhflrmuY._3WJCt_OkjPA6npxOtguSt5 ._2CmrnGY-Amtd83ScJkFvx2 {
+    display: none;
+}
+
 /*Remove ugly line in library*/
 .RGNMWtyj73_-WdhflrmuY._3WJCt_OkjPA6npxOtguSt5 ._2CmrnGY-Amtd83ScJkFvx2.Maximized, .Maximized .RGNMWtyj73_-WdhflrmuY._3WJCt_OkjPA6npxOtguSt5 ._2CmrnGY-Amtd83ScJkFvx2 {
     box-shadow: none;
@@ -160,11 +181,54 @@ top: 11px;
 }
 
 
+/*Right click on game poster "Play" button bg colour*/
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stream, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Connect, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Launch, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PlayMusic, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Play {
+    background: transparent;
+    color: #a6e3a1;
+    transition: 0.2s;
+}
+
+/*Right click on game poster "Play" button bg colour on hover*/
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stream:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stream:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Connect:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Connect:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Launch:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Launch:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PlayMusic:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PlayMusic:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Play:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Play:focus {
+    background: transparent;
+    filter: brightness(1.4);
+    color: #a6e3a1;
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+/*Right click on game poster "Play" button icon*/
+._1n7Wloe5jZ6fSuvV18NNWI .SVGIcon_Button {
+    fill: #f5e0dc;
+}
+
 
 
 /*=====================================================================================*/
 
 
+
+/*Install game select drive popup container*/
+/*=====================================================================================*/
+/*Small exclamation icon top left*/
+.Oo5JPcEk_erKEYAzYp2nY ._1p727K-lt5u7dR3PbUTcNZ.bhL5Q352pNmO44_JjKZTX {
+    color: #fab387;
+}
+/*Small exclamation icon and text bottom right*/
+.WonjNtnAq8aOefGl_x2v4 {
+    color: #fab387;
+}
+
+/*Install button text colour when disabled*/
+button.DialogButton:disabled, button.DialogButton:disabled:hover, button.DialogButton.Disabled, button.DialogButton.Disabled:hover {
+    color: #a6adc8;
+    filter: saturate(0.4) opacity(0.7);
+}
+
+/*Settings*/
+.vaNI84b_TV6hw20mhGl_d ._2pnPQKKjSPKgzPwlaXMqu_.DesktopUI, .DesktopUI .vaNI84b_TV6hw20mhGl_d ._2pnPQKKjSPKgzPwlaXMqu_ {
+    background-color: transparent;
+}
 
 
 
@@ -218,7 +282,7 @@ top: 11px;
 /*Play button background colour*/
 ._3AjoLnMNKxYmNTGTJCLfgs._1_Bo2Ied5s2Od4YKYTOsau:not(._1aml4h4CSJbtrNbX4brUYs) {
     background: transparent;
-    border: solid #eba0ac 3px;
+    border: solid #a6e3a1 3px;
     border-radius: 0px;
     transition: 0.3s;
     width: 50px;
@@ -233,11 +297,13 @@ top: 11px;
 
 /*Play button icon colour*/
 ._3AjoLnMNKxYmNTGTJCLfgs._1_Bo2Ied5s2Od4YKYTOsau:not(._1aml4h4CSJbtrNbX4brUYs) .SVGIcon_Play {
-    fill: #eba0ac;
+    fill: #f5e0dc;
+    transition: 0.3s;
 }
 /*Play button icon colour, when hover */
 ._54PuCatl_tYG836TOs4Mv ._3AjoLnMNKxYmNTGTJCLfgs:hover:not(._1aml4h4CSJbtrNbX4brUYs) .SVGIcon_Play {
-    fill: #d78995;
+    fill: #a6e3a1;
+    transition: 0.3s;
 }
 
 /*Play button size when small screen size*/
@@ -269,7 +335,7 @@ top: 11px;
 
 /*Pause update/install button icon colour*/
 ._3AjoLnMNKxYmNTGTJCLfgs .SVGIcon_Pause {
-    fill: #f9e2af;
+    fill: #f5e0dc;
 }
 
 /*Pause update/install button bg colour, when hover*/
@@ -280,11 +346,15 @@ top: 11px;
 /*Pause update/install button icon colour, when hover*/
 ._54PuCatl_tYG836TOs4Mv .WYgDg9NyCcMIVuMyZ_NBC ._3AjoLnMNKxYmNTGTJCLfgs:hover:not(._1aml4h4CSJbtrNbX4brUYs):not(._1_Bo2Ied5s2Od4YKYTOsau) svg {
     transform: scale(1.2);
+    color: #f9e2af;
+    fill: #f9e2af;
+    transition: 0.3s;
 }
 
 /*Resume paused install button icon colour*/
 ._3AjoLnMNKxYmNTGTJCLfgs._3yGiLsl__NlNYprnB7rt14 svg, ._3AjoLnMNKxYmNTGTJCLfgs._2PhYbL3_EgtG5edPuoTVtq svg {
-    filter: brightness(0) saturate(100%) invert(92%) sepia(5%) saturate(2079%) hue-rotate(348deg) brightness(99%) contrast(97%);
+    color: #f5e0dc;
+    transition: 0.3s;
 }
 
 /*Small fix for blurred part underneath play button and info text*/
@@ -631,7 +701,7 @@ top: 11px;
 /*Right click game context menu "Install" button colour*/
 .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Download, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Update, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PreLoad, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Resume, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Pause, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.BorrowApp, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stop, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Cancel, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Install, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PurchaseApp {
     background: transparent;
-    color: #f5c2e7;
+    color: #f9e2af;
     transition: 0.2s;
 }
 
@@ -639,6 +709,7 @@ top: 11px;
 .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Download:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Download:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Update:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Update:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PreLoad:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PreLoad:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Resume:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Resume:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Pause:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Pause:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.BorrowApp:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.BorrowApp:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stop:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stop:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Cancel:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Cancel:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Install:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Install:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PurchaseApp:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PurchaseApp:focus {
     background: transparent;
     transform: scale(1.05);
+    color: #f9e2af;
     transition: 0.2s;
     filter: brightness(1.1);
 }
@@ -649,6 +720,11 @@ top: 11px;
     color: #f5c2e7;
 }
 
+/*Right click game, highlight background colour + border*/
+._3km84Vscc0uS91f0RN_30C {
+    border: none;
+    background-color: #f5c2e714;
+}
 
 
 
@@ -870,7 +946,7 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 button.DialogButton.Primary {
     background: transparent;
     border: solid #eba0ac 1px;
-    color: #eba0ac;
+    color: #f5e0dc;
     transition: 0.2s;
 }
 
@@ -919,8 +995,12 @@ button.DialogButton.Primary:hover, button.DialogButton.Primary.gpfocus {
 /*=====================================================================================*/
 
 
-
-
+/*Uninstall game popup container*/
+/*=====================================================================================*/
+/*"Uninstall" button bg colour while active*/
+button.DialogButton.Primary:enabled:active, button.DialogButton.Primary:enabled:hover:active, button.DialogButton.Primary:enabled:active.gpfocus {
+    background: transparent;
+}
 
 
 /*Inside any category screen*/
@@ -1316,7 +1396,7 @@ div.HighPerfMode ._2l416KfEtI4CL0mCUEmOBw {
 /*Disk selector buttons colour (Selected)*/
 .DesktopUI .Oo5JPcEk_erKEYAzYp2nY.gkgG-dWgjpwS_aqlcMNTM {
     background: none;
-    color: #f2cdcd;
+    color: #f5c2e7;
 }
 
 
