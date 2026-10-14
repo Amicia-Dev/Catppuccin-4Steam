@@ -34,7 +34,15 @@ body {
 ._3Z7VQ1IMk4E3HsHvrkLNgo {
     background-color: #11111b;
     box-shadow: none;
+    margin-bottom: 15px;
 }
+
+/*Top of steam when maximized, small ugly shadow line removed and space added*/
+._3Z7VQ1IMk4E3HsHvrkLNgo.Maximized, .Maximized ._3Z7VQ1IMk4E3HsHvrkLNgo {
+    box-shadow: none;
+    margin-bottom: 15px;
+}
+
 /*Bottom of steam / footer*/
 ._3vCzSrrXZzZjVJFZNg9SGu {
     background: #11111b;
@@ -118,6 +126,12 @@ body {
 
 /*Main steam library window*/
 /*=====================================================================================*/
+
+/*Remove scrollbar from main library window*/
+._2AUVZlzQq67qe3yhLZsPPB::-webkit-scrollbar {
+    display: none;
+}
+
 /*Bar below steam tabs and above "What's new" container line"*/
 .RGNMWtyj73_-WdhflrmuY ._2CmrnGY-Amtd83ScJkFvx2 {
     background: #11111b;
@@ -179,6 +193,38 @@ top: 11px;
 ._3_xMyCJAh_Dv99KgZ54P3j ._28IqrZIgxpqkUQyhdaLDUN {
     color: #cdd6f4;
 }
+
+/*"What's New"  Hover over game, popup bg colour*/
+._2sGn0cBsD44TjnUIh-lx9d {
+    background: #1e1e2e;
+}
+
+._1Kdi2PBxcdQwDpa-48hrf2 {
+    color: #cdd6f4;
+}
+
+/*"What's New" Hover over game, popup image height*/
+._2R6-lF5h4f0SPrOL9B9IAw {
+    height: 132px;
+    -webkit-mask-image: none;
+    mask-image: none;
+}
+
+/*"What's New" Hover over game, popup lowest text colour*/
+._1VGPO4xU5sgRK6DFt4t74O {
+    color: #6c7086;
+}
+
+/*"What's New" Hover over game, popup second lowest text colour*/
+._1VGPO4xU5sgRK6DFt4t74O .MIHa_O-B1JXrzkoGc255n {
+    color: #b4befe;
+}
+
+/*"What's New" Hover over game, popup blurred background removed*/
+.Yts2cS2BIbHJoh5UorpDq {
+    display: none;
+}
+
 
 
 /*Right click on game poster "Play" button bg colour*/
@@ -427,6 +473,9 @@ button.DialogButton:disabled, button.DialogButton:disabled:hover, button.DialogB
 
  /*=====================================================================================*/
  
+.QO8XpcXyf6i06ZtmHfFA3 {
+    margin-top: 5px;
+}
  
 .QO8XpcXyf6i06ZtmHfFA3 ._3eZ2geN87clv6TGPMJI0qs {
     color: #cba6f7;
@@ -1006,10 +1055,26 @@ button.DialogButton.Primary:enabled:active, button.DialogButton.Primary:enabled:
 /*Inside any category screen*/
 /*=====================================================================================*/
 
-/*Background colour*/
+/*Background colour and border radius*/
 ._2q70uOe6xM3-c5XIVfBLe6 {
     background-image: linear-gradient(to top, #181825 0%, #1e1e2e 80%);
+    border: solid transparent 1px;
+    transition: 0.3s;
+    border-radius: 0px;
 }
+
+/*Border on hover*/
+._2q70uOe6xM3-c5XIVfBLe6:hover {
+    border: solid #cba6f7 1px;
+    transition: 0.3s;
+}
+
+/*Removed ugly line at top of page*/
+._2q70uOe6xM3-c5XIVfBLe6 ._2rqTSCLSSEycEiuCS_OkpX ._1grg9gmk1v5ri4iOuDymaz {
+    display: none;
+}
+
+
 /*Category name colour*/
 ._2q70uOe6xM3-c5XIVfBLe6 ._2rqTSCLSSEycEiuCS_OkpX ._2oJt3qYLAqr6xMjnpmBFLN {
     color: #cdd6f4;
@@ -1019,18 +1084,16 @@ button.DialogButton.Primary:enabled:active, button.DialogButton.Primary:enabled:
 ._1J21tLst5SEhBPkVRT53UV div {
     background: linear-gradient(to bottom, rgba(203, 166, 247, 0.9) 0, #cba6f7 100%);
 }
-/*Scroll to top button text colour*/
+/*Scroll to top button text colour and position fix*/
 ._1J21tLst5SEhBPkVRT53UV {
     color: #181825;
+    margin-bottom: -15px;
 }
 /*Scroll to top button bg colour when hover*/
 ._1J21tLst5SEhBPkVRT53UV:hover._28ZR8gHitOrJaSLxcIAl2p {
     filter: hue-rotate(45deg);
 }
-/*Scroll to top button position fix*/
-._1J21tLst5SEhBPkVRT53UV {
-margin-bottom: -5px;
-}
+
 
 
 /*"Sort By" button bg colour*/
@@ -1065,6 +1128,15 @@ margin-bottom: -5px;
     color: #eba0ac;
 }
 
+/*Removed weird line at top*/
+._3bWISeqP3H2j6YJnFwVEwu:not(.E5k6bKwdV9GHvwwZHYfzA) {
+    display: none;
+}
+
+/*Remove scroll bar*/
+._1vHgYmF_74E0SSuDevSI9j::-webkit-scrollbar {
+    display: none;
+}
 
 
 /*=====================================================================================*/
@@ -1166,10 +1238,6 @@ div.ModalPosition_TopBar {
 /*Inside Selected Game Screen*/
 /*=====================================================================================*/
 
-/*Container right side margin*/
-._3BFcmjAaMyP6GTPwc0VyWi {
-    margin-right: 11px;
-}
 
 /*Container transparent border*/
 ._2Dd4T78PcCTUVgOtDGFY5j {
@@ -1181,12 +1249,19 @@ div.ModalPosition_TopBar {
 ._2iE-78WxX2Pj4GHbq7YJiA {
     border: transparent solid 1px;
     transition: 0.3s;
+    margin-right: 10px;
 }
 
 ._2iE-78WxX2Pj4GHbq7YJiA:hover {
     border: solid #cba6f7 1px;
 }
 
+
+/*Removed margin to reduce empty space*/
+._2r4TK4BAuU-J4FuF_O7v_5 {
+    font-family: Modenine;
+    margin-bottom: 0px;
+}
 
 /*Make scrollbar invisible*/
 ._3lDczhulqraStjCitLYJ1K.Body._2l416KfEtI4CL0mCUEmOBw.ScrollContainer._3FmxxjyWNHU1PrBGnBe6tm.Glassy::-webkit-scrollbar {
@@ -1219,6 +1294,47 @@ div.HighPerfMode ._2l416KfEtI4CL0mCUEmOBw {
     fill: #eba0ac;
 }
 
+/*New available content for game popup*/
+._2UySYiE8fUGGugkHVm1Qb ._2kqz-bSlDu-I49_cV_wicB {
+    background: none;
+    border-image: none;
+    box-shadow: none;
+    border: 2px solid #7f849c;
+}
+
+/*New available content for game popup "close" button colour*/
+._2dB1oJFsqNThak1cFya2-q svg line {
+    stroke: #eba0ac;
+}
+
+/*New available content for game popup, hover over new content bg colour*/
+.game_hover_iframe .game_hover_box {
+    background: #313244
+}
+
+/*New available content for game popup, hover over new content text colour*/
+.game_hover_box h4.hover_title {
+    color: #cdd6f4;
+    font-family: Modenine;
+}
+
+/*New available content for game popup, hover over new content, review summary bg + text colour*/
+.hover_body .hover_review_summary {
+    background-color: transparent;
+    color: #cdd6f4;
+}
+
+/*New available content for game popup, hover over new content, User tags text colour + font*/
+.game_hover_box {
+    color: #6c7086;
+    font-family: Modenine;
+}
+
+/*New available content for game popup, hover over new content, User tags bg colour*/
+.hover_tag_row .app_tag {
+    background-color: transparent;
+    color: #cdd6f4;
+}
 
 /*Game out of sync icon colour*/
 .q_Xpj_ztkqZCfOIksH3UR {
@@ -1401,6 +1517,10 @@ div.HighPerfMode ._2l416KfEtI4CL0mCUEmOBw {
 
 
 
+/*Achievement progress bar bg colour*/
+._38t1mljBjmJfqjpVzMT1CG {
+    background: none;
+}
 
 /*Achievement progress bar*/
 ._25YVDTaClw6Y2COPsU0UaV ._1FnTqlsi2_-TJf1d5apoS6 {
@@ -1413,6 +1533,10 @@ div.HighPerfMode ._2l416KfEtI4CL0mCUEmOBw {
     background-color: #cba6f7;
 }
 
+/*More achievements than what can be shown +n buttom*/
+._2aVnDeExEHiUFX0zwr_BTO {
+    background-color: transparent;
+}
 
 /*-------------------------------------------*/
 
@@ -1494,6 +1618,63 @@ div.HighPerfMode ._2l416KfEtI4CL0mCUEmOBw {
     border: solid #cba6f7 1px;
 }
 
+/*Main container*/
+._39Zk32AvV5cr6g-83IVRVS {
+    background: #181825;
+    border: solid transparent 1px;
+    transition: 0.3s;
+    border-image: none;
+    box-shadow: none;
+}
+
+/*Main container border when hover*/
+._39Zk32AvV5cr6g-83IVRVS:hover {
+    border: solid #cba6f7 1px;
+    transition: 0.3s;
+}
+
+/*Left border*/
+._3oMUSjOFNB0E9LWcL2sE7 {
+    display: none;
+}
+
+/*bg effect*/
+.LibriMVXcLl1HB60ZUp78 {
+    background:none;
+}
+
+/*bg effect when hover*/
+.LibriMVXcLl1HB60ZUp78:hover {
+    background: none;
+}
+
+/*blurred bg*/
+.fGDsmh9vz8h0RMEoRoAvF._3cX_vEKsN9S9EmR0O5w1Ol {
+    display: none;
+}
+
+/*Article comment button*/
+._1yWgPveQ73QeYCdLcs6oFQ ._161IKq84RwQO4abJSCqv7q, ._1yWgPveQ73QeYCdLcs6oFQ ._3i62HEXIhsNTd5-Z4uL3K, ._1yWgPveQ73QeYCdLcs6oFQ ._35yrbgVC5TQttl8IPVlKQB {
+    transition: 0.2s;    
+}
+
+/*Article comment button when hover*/
+._1yWgPveQ73QeYCdLcs6oFQ ._161IKq84RwQO4abJSCqv7q._3Mds9UG-5yRsWUclIV_Y9q:hover, ._1yWgPveQ73QeYCdLcs6oFQ ._3i62HEXIhsNTd5-Z4uL3K._3Mds9UG-5yRsWUclIV_Y9q:hover, ._1yWgPveQ73QeYCdLcs6oFQ ._35yrbgVC5TQttl8IPVlKQB._3Mds9UG-5yRsWUclIV_Y9q:hover {
+    background-color: transparent;
+    transition: 0.2s;
+    transform: scale(1.15);
+}
+
+/*Article comment button text colour when hover*/
+._1yWgPveQ73QeYCdLcs6oFQ ._161IKq84RwQO4abJSCqv7q._3Mds9UG-5yRsWUclIV_Y9q:hover ._3grvnr9zzkvx6NoBOdmTnf, ._1yWgPveQ73QeYCdLcs6oFQ ._161IKq84RwQO4abJSCqv7q._3Mds9UG-5yRsWUclIV_Y9q:hover ._2RkIcXHXACX4EdBluR3nAH, ._1yWgPveQ73QeYCdLcs6oFQ ._161IKq84RwQO4abJSCqv7q._3Mds9UG-5yRsWUclIV_Y9q:hover ._1S3Q9rK5wn6PAIXII0mBz4, ._1yWgPveQ73QeYCdLcs6oFQ ._3i62HEXIhsNTd5-Z4uL3K._3Mds9UG-5yRsWUclIV_Y9q:hover ._3grvnr9zzkvx6NoBOdmTnf, ._1yWgPveQ73QeYCdLcs6oFQ ._3i62HEXIhsNTd5-Z4uL3K._3Mds9UG-5yRsWUclIV_Y9q:hover ._2RkIcXHXACX4EdBluR3nAH, ._1yWgPveQ73QeYCdLcs6oFQ ._3i62HEXIhsNTd5-Z4uL3K._3Mds9UG-5yRsWUclIV_Y9q:hover ._1S3Q9rK5wn6PAIXII0mBz4, ._1yWgPveQ73QeYCdLcs6oFQ ._35yrbgVC5TQttl8IPVlKQB._3Mds9UG-5yRsWUclIV_Y9q:hover ._3grvnr9zzkvx6NoBOdmTnf, ._1yWgPveQ73QeYCdLcs6oFQ ._35yrbgVC5TQttl8IPVlKQB._3Mds9UG-5yRsWUclIV_Y9q:hover ._2RkIcXHXACX4EdBluR3nAH, ._1yWgPveQ73QeYCdLcs6oFQ ._35yrbgVC5TQttl8IPVlKQB._3Mds9UG-5yRsWUclIV_Y9q:hover ._1S3Q9rK5wn6PAIXII0mBz4 {
+    color: #cba6f7;
+}
+
+._1yWgPveQ73QeYCdLcs6oFQ ._1OhPtd0sU2yzZwckCTGRNC svg, ._1yWgPveQ73QeYCdLcs6oFQ ._1OhPtd0sU2yzZwckCTGRNC path, ._1yWgPveQ73QeYCdLcs6oFQ ._1R6Oubrk1mRaGQf56EQwd4 svg, ._1yWgPveQ73QeYCdLcs6oFQ ._1R6Oubrk1mRaGQf56EQwd4 path, ._1yWgPveQ73QeYCdLcs6oFQ .QL3AayCY6oJkK95jwGibN svg, ._1yWgPveQ73QeYCdLcs6oFQ .QL3AayCY6oJkK95jwGibN path {
+    fill: #585b70;
+    stroke: #585b70;
+}
+
 
 /*-------------------------------------------*/
 
@@ -1507,7 +1688,7 @@ div.HighPerfMode ._2l416KfEtI4CL0mCUEmOBw {
 }
 
 ._3QRf-tp5VddAF00vWY5Gn8 {
-    background: none;
+    background: #181825;
     border: solid transparent 1px;
     transition: 0.3s;
 }
@@ -1519,10 +1700,104 @@ div.HighPerfMode ._2l416KfEtI4CL0mCUEmOBw {
     transition: 0.3s;
 }
 
+/*"Say something about this game... text box bg colour"*/
+._3x31AgESSlUqX3D4MTHv2m ._1JlC29Ic6L-QvL-39X_d-X {
+    background: #181825;
+}
+
+/*"Say something about this game... text box bg colour on focus"*/
+._3x31AgESSlUqX3D4MTHv2m ._1JlC29Ic6L-QvL-39X_d-X:focus {
+    background: #11111b;
+}
+
+/*"Say something about this game..." "Post" button grayed out style*/
+._3x31AgESSlUqX3D4MTHv2m ._37e7DrDNmf1FmsMGA5y0A0 ._2JSyABqFEh-v_dwaTnBydR {
+    background-color: transparent;
+    border: solid 1px #eba0ac;
+    border-radius: 0px;
+    transition: 0.2s;
+}
+
+/*"Say something about this game..." "Post" button style*/
+._3x31AgESSlUqX3D4MTHv2m ._37e7DrDNmf1FmsMGA5y0A0 ._2JSyABqFEh-v_dwaTnBydR.bGfjajFo4DI-ULSQxw1KY {
+    background: none;
+    transition: 0.2s;
+    filter: none;
+}
+
+/*"Say something about this game..." "Post" button hover style*/
+._3x31AgESSlUqX3D4MTHv2m ._37e7DrDNmf1FmsMGA5y0A0 ._2JSyABqFEh-v_dwaTnBydR.bGfjajFo4DI-ULSQxw1KY:hover {
+    background: #eba0ac26;
+    transition: 0.2s;
+    filter: none;
+}
+
+/*"Say something about this game..." "Emoji" button bg colour*/
+._3x31AgESSlUqX3D4MTHv2m ._37e7DrDNmf1FmsMGA5y0A0 button.bACIuqv-b_9TztCczFK19 {
+    background-color: transparent;
+    transition: 0.2s;
+    cursor: default;
+}
+
+/*"Say something about this game..." "Emoji" icon colour*/
+.RVIs84dAE6wHcjH9tkinc._3zOBeq5W4cNK3lRz_7aroW svg, .RVIs84dAE6wHcjH9tkinc.Aupswi7-c-w3XwNO5cp2i svg {
+    color: #b4befe;
+}
+
+/*"Say something about this game..." "Emoji" icon dot glow colour*/
+._5BtHMjT9usALaSWHGugdV {
+    background: radial-gradient(ellipse farthest-corner at 50% 50%, #cba6f791 0%, #cba6f71c 45%, #cba6f700 85%);
+}
+
+/*"Say something about this game..." "Emoji" icon got colour*/
+._5BtHMjT9usALaSWHGugdV .u5Kx6dkUppvb-1qV4IIuy {
+    background-color: #cba6f7;
+}
+
+/*"Say something about this game..." "Emoji" ico when hover*/
+._3x31AgESSlUqX3D4MTHv2m ._37e7DrDNmf1FmsMGA5y0A0 button.bACIuqv-b_9TztCczFK19:hover {
+    background-color: transparent;
+    filter: hue-rotate(50deg);
+    transition: 0.2s;
+}
+
+/*Emoji menu search bar bg colour*/
+.EuFePPYFGrcf99uLXmBYN ._2l4z-U60lABvd9XWArGjAf {
+    background-color: #1e1e2e;
+}
+
+/*Emoji menu search bar bg colour when hover or focus*/
+.EuFePPYFGrcf99uLXmBYN ._2l4z-U60lABvd9XWArGjAf:hover, .EuFePPYFGrcf99uLXmBYN ._2l4z-U60lABvd9XWArGjAf:focus {
+    background-color: #181825 !important;
+}
+
+/*Post from friends in game activity style*/
+.UVeN0kaD3zv1feMj_mMw5 .NEMXhMlqXOCJwfgWlHXhT {
+    background: none;
+    box-shadow: none;
+}
+
+/*Post from friends in game activity bg colour*/
+.UVeN0kaD3zv1feMj_mMw5 .NEMXhMlqXOCJwfgWlHXhT.Yo3XX_JHkn0gKBlBhDvyg {
+    background: #181825;
+}
+
+/*Post from friends in game activity text colour*/
+._3ygGwhh7ez8rniqAnS8BeW {
+    color: #cdd6f4;
+}
+
+/*Reply to post bg colour*/
+._39nnaT_CLE0m_WXVIrAwaG {
+    background: none;
+}
+
+
+
 /*-------------------------------------------*/
 
 
-/*Inside activity articles*/
+/*Inside activity / news articles*/
 /*-------------------------------------------*/
 
 /*Inside activity articles, Main body*/
@@ -1531,6 +1806,7 @@ div.HighPerfMode ._2l416KfEtI4CL0mCUEmOBw {
     border-radius: 0px;
     background-image: none;
     border: solid #cba6f7 1px;
+    box-shadow: none;
 }
 
 
@@ -1577,8 +1853,150 @@ div.HighPerfMode ._2l416KfEtI4CL0mCUEmOBw {
 /*Bigger article text*/
 div.SPYFj8pCLpNmnuQJEDobC, div.QuKtTJ4LCPUlQeWYfLNyX, div._3s7cUqglDds9wzcWb7OLz6, h1.SPYFj8pCLpNmnuQJEDobC, h2.QuKtTJ4LCPUlQeWYfLNyX, h3._3s7cUqglDds9wzcWb7OLz6 {
     color: #cdd6f4;
+    filter: hue-rotate(61deg);
 }
 
+/*Top right buttons positioning*/
+._2pA5CW91XQQDfo6yZEdPd- ._3yfs7fc5WEv6F9tPG4yq4g ._2tSyrRxMCRWK6K09JErgI_ {
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-top: -106px;
+    margin-right: 85px;
+    border-radius: 0 0 10px 10px;
+    width: auto;
+    height: 60px;
+}
+
+/*Top right buttons spacing*/
+._240i58XQ0w78YFrd_p-9UY {
+    margin-left: 10px;
+}
+
+
+
+/*Top right exit button bg colour*/
+._1_vCR1dPfyJ7_yukwDqblf {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    margin-bottom: 0px;
+}
+
+/*Top right exit button hover bg style*/
+._1_vCR1dPfyJ7_yukwDqblf:hover {
+    background-color: transparent;
+    border: none;
+}
+
+/*Top right exit button icon style*/
+._1_vCR1dPfyJ7_yukwDqblf svg line {
+    stroke: #f38ba8;
+    stroke-width: 25px;
+    transition: 0.3s;
+}
+
+/*Top right exit button hover style*/
+._1_vCR1dPfyJ7_yukwDqblf:hover svg line {
+    stroke: #f38ba8;
+    stroke-width: 40px;
+    filter: brightness(1.2);
+    transition: 0.3s;
+}
+
+/*Top right, other buttons, style*/
+._1t_97P9KMsEBaPq9y-6OUl {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    margin-bottom: 0px;
+}
+
+/*Top right, go up button hover bg style*/
+._1t_97P9KMsEBaPq9y-6OUl:hover {
+    background-color: transparent;
+    border: none;
+}
+
+/*Top right, up and down buttons icon colour*/
+._1t_97P9KMsEBaPq9y-6OUl svg polygon {
+    fill: #cdd6f4;
+}
+
+/*Top right, up and down buttons hover icon colour*/
+._1t_97P9KMsEBaPq9y-6OUl:hover svg polygon {
+    fill: #f5c2e7;
+}
+
+/*Top right, other buttons while active bg style*/
+._240i58XQ0w78YFrd_p-9UY:active {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+/*Top right, go to game page button, rounded corners*/
+._2pA5CW91XQQDfo6yZEdPd- ._3yfs7fc5WEv6F9tPG4yq4g ._2tSyrRxMCRWK6K09JErgI_ ._2a5oSdTIcFV3c3ymUNsu6l img {
+    border-radius: 12px;
+}
+
+/*Article footer bg colour*/
+.mKmrOjr9bGjKAolgp9NoD {
+    background-image: none;
+}
+
+/*Article footer buttons bg colour*/
+._3Kelh1-_v6xHfRjF68n7NB, ._3ctGqQID5-8adtd7HlZ3YM, ._16xC0mtOWoLbvSQbmo_ycv {
+    background-color: transparent;
+}
+
+/*Article footer buttons bg 2 colour*/
+._1ABCOz8DSrl-YJdh1xD-m0._1dDpSuaJBGZzS41s0SPk4c {
+    background: transparent;
+    box-shadow: none;
+    border-radius: 0px;
+    border: solid #eba0ac 1px;
+    color: #cdd6f4;
+}
+
+/*Article footer, rate up button icon colour*/
+._2akzufsslA5YAnC95zYx0K {
+    fill: #cdd6f4;
+}
+
+/*Article footer buttons while hover*/
+._1ABCOz8DSrl-YJdh1xD-m0._1dDpSuaJBGZzS41s0SPk4c:hover {
+    background: transparent;
+    fill: #eba0ac;
+    box-shadow: none;
+    transition: 0.2s;
+    transform: scale(1.05);
+}
+
+
+/*Article footer, rate down button icon colour*/
+._3ZqxxB_poSsEYBW1s4t1OY {
+    fill: #cdd6f4;
+}
+
+/*Article footer, share button icon colour*/
+._3qVz2p-X14nAGX6EWNC87I {
+    fill: #cdd6f4;
+}
+
+/*Article footer, like count symbol colour*/
+.Sf3urgalDvD2sZqNjEV9i {
+    fill: #89dceb;
+}
+
+
+/*Article footer, comment count symbol colour*/
+.QQy4BCjcpjCfAvTKAqBq3>svg {
+    fill: #89dceb;
+}
+
+/*Article footer, like and comment cound texts colour*/
+._3csl-MPe-hKuT8hQpOqEG5, .QQy4BCjcpjCfAvTKAqBq3 {
+    color: #89dceb;
+}
 
 /*-------------------------------------------*/
 
