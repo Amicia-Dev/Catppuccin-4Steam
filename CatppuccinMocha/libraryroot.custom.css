@@ -1268,7 +1268,6 @@ div.ModalPosition_TopBar {
     display: none;
 }
 
-
 /*Background*/
 ._2OOzYVWIHaKXm6_7sscT9i .OhSdLYuggDtBcWjYP0j_9 {
     background: #1e1e2e;
@@ -1288,11 +1287,65 @@ div.HighPerfMode ._2l416KfEtI4CL0mCUEmOBw {
 }
 
 
+/*Info texts right of play button*/
+._34lrt5-Fc3usZU6trA1P0- {
+    color: #6c7086;
+}
+._2TYVGoD27ZMfjRirKQNLfk, ._3pS8kMrtScuY1Qf-W8tmRV ._1nfJNsQjTOXSQQyFahGnRi {
+    color: #6c7086;
+}
+._1kiZKVbDe-9Ikootk57kpA .MbTRimZpGCATmn39ae8RT {
+    color: #6c7086;
+}
+
+/*Corresponding icons to info texts right of play button*/
+._1aKegVl9_lSdNAyWYZQlr9 ._1GZdosVXnfrf69yU8DWASl svg polyline, ._1aKegVl9_lSdNAyWYZQlr9 ._1GZdosVXnfrf69yU8DWASl svg path, ._1aKegVl9_lSdNAyWYZQlr9 ._1UXbBdCvbg9tyZhc4owO4W svg polyline, ._1aKegVl9_lSdNAyWYZQlr9 ._1UXbBdCvbg9tyZhc4owO4W svg path {
+    stroke: #6c7086;
+}
+._1aKegVl9_lSdNAyWYZQlr9 ._1GZdosVXnfrf69yU8DWASl svg polyline, ._1aKegVl9_lSdNAyWYZQlr9 ._1GZdosVXnfrf69yU8DWASl svg path, ._1aKegVl9_lSdNAyWYZQlr9 ._1UXbBdCvbg9tyZhc4owO4W svg polyline, ._1aKegVl9_lSdNAyWYZQlr9 ._1UXbBdCvbg9tyZhc4owO4W svg path {
+    stroke: #6c7086;
+}
+._1aKegVl9_lSdNAyWYZQlr9 ._1GZdosVXnfrf69yU8DWASl svg circle, ._1aKegVl9_lSdNAyWYZQlr9 ._1UXbBdCvbg9tyZhc4owO4W svg circle {
+    stroke: #6c7086;
+    fill: #6c7086;
+}
+._1kiZKVbDe-9Ikootk57kpA .k-QNT9kzOEOvG0U_kGmwr {
+    color: #6c7086;
+}
+
+
+
+/*Achievements text1 colour*/
+._1j_gja8bHXjiS-BeSQk8hb ._1s_9cSxUjb4609MSH0EjWH ._39Y01uSRcLiDg5DneTTR0m {
+    color: #cdd6f4;
+}
+
+/*Achievements text2 colour*/
+._1j_gja8bHXjiS-BeSQk8hb ._1s_9cSxUjb4609MSH0EjWH ._2gLHbXukQBdrIKhqEYVvOe {
+    color: #6c7086;
+}
+
 /*Set favourite game button colour*/
 ._3qDWQGB0rtwM3qpXTb11Q-._21hXW2oDD7zvNsoOaW7Yob._2WaHZuAetbqENmqDthu3nl svg path {
     stroke: #eba0ac;
     fill: #eba0ac;
 }
+
+/*"Activity" text colour*/
+._1Q2q_tQ9_Eq8YdEHNAHS3F {
+    color: #7f849c;
+}
+
+/*Activity "Today" text colour*/
+.S2Fu9HxHCA5MaCLGrN2ib ._19LfMT7PFWg2xHOqNjR99q {
+    color: #7f849c;
+}
+
+/*Activity "Achieved" text colour*/
+.UVeN0kaD3zv1feMj_mMw5 .QCKBqF2k_sRLcXJ5qQIEl {
+    color: #7f849c;
+}
+
 
 /*New available content for game popup*/
 ._2UySYiE8fUGGugkHVm1Qb ._2kqz-bSlDu-I49_cV_wicB {
@@ -1538,6 +1591,19 @@ div.HighPerfMode ._2l416KfEtI4CL0mCUEmOBw {
     background-color: transparent;
 }
 
+/*In selected game screen, far right buttons bg colour (settings, info, favourite)"*/
+._3qDWQGB0rtwM3qpXTb11Q- {
+    background-color: transparent;
+    transition: 0.2s;
+}
+
+._3qDWQGB0rtwM3qpXTb11Q-:hover {
+    background-color: transparent;
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+
 /*-------------------------------------------*/
 
 
@@ -1593,11 +1659,26 @@ div.HighPerfMode ._2l416KfEtI4CL0mCUEmOBw {
     background: #cba6f7;
 }
 
+/*Background colour*/
 ._1AYE16384J_ecLpN0sEYc5 {
     border-image-source: none;
-    background: none;
+    background: #181825;
     box-shadow: none;
 }
+
+/*Header text colour*/
+._1gljEIuhbsQpFCWuVhdKTJ {
+    color: #cdd6f4;
+    transition: 0.3s;
+}
+
+/*Header text colour on hover*/
+._1HZy7BvOZuPT8feUwadL4W:hover ._1gljEIuhbsQpFCWuVhdKTJ {
+    color: #cba6f7;
+    transition: 0.3s;
+}
+
+
 
 
 /*Background colour*/
@@ -1761,6 +1842,17 @@ div.HighPerfMode ._2l416KfEtI4CL0mCUEmOBw {
     transition: 0.2s;
 }
 
+/*"View Latest News" button text colour*/
+._1EC1xjjUGqI7fqX6PVzJA3 {
+    color: #585b70;
+}
+
+/*"View Latest News" button style on hover*/
+._1EC1xjjUGqI7fqX6PVzJA3:hover {
+    background-color: transparent;
+    color: #cdd6f4;
+}
+
 /*Emoji menu search bar bg colour*/
 .EuFePPYFGrcf99uLXmBYN ._2l4z-U60lABvd9XWArGjAf {
     background-color: #1e1e2e;
@@ -1792,6 +1884,17 @@ div.HighPerfMode ._2l416KfEtI4CL0mCUEmOBw {
     background: none;
 }
 
+/*Small update main text colour*/
+._3QRf-tp5VddAF00vWY5Gn8 {
+    color: #cdd6f4;
+    transition: 0.3s;
+}
+
+/*"Small update" main text colour on hover*/
+._3QRf-tp5VddAF00vWY5Gn8:hover ._1Cva_kor3lWBIoeu9cQxJq {
+    color: #cba6f7;
+    transition: 0.3s;
+}
 
 
 /*-------------------------------------------*/
