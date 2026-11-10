@@ -844,6 +844,8 @@ button.DialogButton:disabled, button.DialogButton:disabled:hover, button.DialogB
 /*Surrounding area background colour*/
 ._2TKEazUUS3TlniZfpc8OOe {
     background-color: #1e1e2e;
+    margin-top: 2px;
+    margin-bottom: -7px;
 }
 /*Background colour*/
 ._3pSPluBgf0NeR1kkCLWMhR.eNLOx4LVceeMwRvTVWh3 {
@@ -1265,7 +1267,7 @@ button.DialogButton.Primary:enabled:active, button.DialogButton.Primary:enabled:
 /*Scroll to top button text colour and position fix*/
 ._1J21tLst5SEhBPkVRT53UV {
     color: #181825;
-    margin-bottom: -15px;
+    margin-bottom: -5px;
 }
 /*Scroll to top button bg colour when hover*/
 ._1J21tLst5SEhBPkVRT53UV:hover._28ZR8gHitOrJaSLxcIAl2p {
@@ -1425,13 +1427,14 @@ div.ModalPosition_TopBar {
 
 /*Container transparent border on hover*/
 ._2iE-78WxX2Pj4GHbq7YJiA {
-    border: transparent solid 1px;
+    border: solid #313244 2px;
     transition: 0.3s;
     margin-right: 10px;
+    margin-left: 4px;
 }
 
 ._2iE-78WxX2Pj4GHbq7YJiA:hover {
-    border: solid #cba6f7 1px;
+    border: solid #cba6f7 2px;
 }
 
 
