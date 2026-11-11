@@ -74,6 +74,11 @@ body {
     background: #1e1e2e;
 }
 
+/*Fullscreen top line*/
+._3pXasCUulX4jjqO79s4q_F._2MkHZqf7MrgW3f8qGHiI8Z {
+    display: none;
+}
+
 /*CSS for global styles ENDS HERE======================================================*/
 /*=====================================================================================*/
 /*=====================================================================================*/
@@ -1235,17 +1240,26 @@ button.DialogButton.Primary:enabled:active, button.DialogButton.Primary:enabled:
 /*Inside any category screen*/
 /*=====================================================================================*/
 
+/*Background behind background..*/
+._1vHgYmF_74E0SSuDevSI9j {
+    background: #1e1e2e;
+}
+
+
 /*Background colour and border radius*/
 ._2q70uOe6xM3-c5XIVfBLe6 {
-    background-image: linear-gradient(to top, #181825 0%, #1e1e2e 80%);
-    border: solid transparent 1px;
+    background-image: none;
+    background: #1e1e2e;
+    border: solid #313244 2px;
     transition: 0.3s;
     border-radius: 0px;
+    margin-right: 13px;
+    margin-left: 4px;
 }
 
 /*Border on hover*/
 ._2q70uOe6xM3-c5XIVfBLe6:hover {
-    border: solid #cba6f7 1px;
+    border: solid #cba6f7 2px;
     transition: 0.3s;
 }
 
@@ -1429,7 +1443,7 @@ div.ModalPosition_TopBar {
 ._2iE-78WxX2Pj4GHbq7YJiA {
     border: solid #313244 2px;
     transition: 0.3s;
-    margin-right: 10px;
+    margin-right: 13px;
     margin-left: 4px;
 }
 
@@ -2680,6 +2694,7 @@ fill: #313244;
 /*Games list, "Clear All" button font + colour*/
 ._1GdR5LbENV7LOGROJBxohI._1GdR5LbENV7LOGROJBxohI.DialogButton:enabled {
     font-family: Modenine;
+    background: transparent;
     color: #cdd6f4;
     transition: 0.2s;
 }
