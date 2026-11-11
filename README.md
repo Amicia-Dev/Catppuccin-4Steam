@@ -1,6 +1,6 @@
 # Catppuccin-4Steam
 
-# This is heavily WIP, only friends list is finished + almost library tab.
+# This is heavily WIP, main library tab, friends list and downloads page are done so far.
 
 > A theme for Steam, based on the Catppuccin Mocha Palette.
 
