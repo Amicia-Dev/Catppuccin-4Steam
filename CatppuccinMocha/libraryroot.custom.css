@@ -2455,3 +2455,254 @@ fill: #313244;
 /*CSS for steam library tab ENDS HERE================================================*/
 /*=====================================================================================*/
 /*=====================================================================================*/
+
+
+
+
+
+/*CSS for steam downloads tab STARTS HERE================================================*/
+/*=====================================================================================*/
+/*=====================================================================================*/
+
+/*Different texts entire downloads page*/
+._1SyggnJY6qbRSmbZpkK3-H {
+    font-family: Modenine;
+    color: #cdd6f4;
+}
+
+/*Downloads list bg colour*/
+._1bq4x9pa4-9RLY-dXWUZTp {
+    background: #1e1e2e;
+}
+
+/*Top current download container bg colour*/
+._1VNuYHM6BPBOJspC6zPf5r.IbePLaw-vSvhG1GTenYFg {
+    background-color: #1e1e2e;
+}
+
+/*Top current download container disk usage line colour*/
+._1BxZDLT8KveuJzn-1q4NTP ._3H2JWLH8rucdSC1XVZ7Xdk {
+    stroke: #a6e3a1;
+}
+
+/*Top current download container network usage polls colour*/
+._1BxZDLT8KveuJzn-1q4NTP .OS07NfYlp6v-Eh5oQ7dwn {
+    color: #74c7ec;
+    filter: brightness(0.65);
+}
+
+/*Top current download container without active download bg colour*/
+._3mZ2rKd2RECK4q4ufmsDYX.pHDI1ddoKXceD5KL7W-4z {
+    display: none;
+}
+
+/*Top current download container without active download bg colour*/
+._3Mbhnlk1Go2j8yCdjthzc7.IbePLaw-vSvhG1GTenYFg._2KB3yVOsiRCK9qK6mwKl9c {
+    background-color: #1e1e2e;
+}
+
+
+/*Top current download container Network/Peak symbols colour*/
+.Ayu--dDVVaKmP2gNYPAQ0 ._33jqEbo2sBXJZ08w9BkdEM svg {
+    color: #74c7ec;
+}
+
+/*Top current download container Disk Usage symbols colour*/
+.Ayu--dDVVaKmP2gNYPAQ0 ._1QHr4A7EN2DgQfJIdu3rTh {
+    background-color: #a6e3a1;
+}
+
+/*Top current download container font + text colour*/
+.Ayu--dDVVaKmP2gNYPAQ0 ._1iulCOMUxV6sBbqoKo_yXw {
+    font-family: Modenine;
+    color: #9399b2;
+}
+
+/*Top current download container, current speeds texts, font + text colour*/
+._5TdA4FjU9OYsTIaHzloD .eXF8xL2LUtzeWMbK-FSRz {
+    font-family: Modenine;
+    color: #cdd6f4;
+}
+
+/*Top current download container, "Download" progress bar font*/
+._22WcrscaQSqK56PQKgf5YG ._3a973VY2X3US_cZqA9ZgNF {
+    font-family: Modenine;
+    color: #cdd6f4;
+}
+
+/*Top current download container, "Download" progress bar font*/
+.sv3ZHPWbrD7yjwx5Mi3u5 ._1dHjjSl-57o1KQsQ1m1HSA._3WavcSX0NkHlBh5fICWKyB {
+    color: #9399b2;
+}
+
+/*Top current download container, Download progress bar colour*/
+._1SyggnJY6qbRSmbZpkK3-H ._1vMU1vG5ZtLihr3mfXUymR._2mLZnQr2HzWQ1K8D8xouc- div {
+    background-color: #89dceb;
+}
+
+/*Top current download container, Download progress bar, progress text font + colour*/
+.sv3ZHPWbrD7yjwx5Mi3u5 {
+    font-family: Modenine;
+    color: #cdd6f4;
+}
+
+/*Top current download container, Download progress bar, progress text colour*/
+.sv3ZHPWbrD7yjwx5Mi3u5 ._1dHjjSl-57o1KQsQ1m1HSA {
+    color: #cdd6f4;
+}
+
+/*Top current download container, Download progress bar, progress text symbol colour*/
+._22WcrscaQSqK56PQKgf5YG .-OgRzXqfwOvAWFZS3Rk_N {
+    color: #cdd6f4;
+}
+
+
+/*Top current download container, Patching progress bar colour*/
+._1SyggnJY6qbRSmbZpkK3-H ._1vMU1vG5ZtLihr3mfXUymR.HifZB5TP6WNuubp1dzyxS div {
+    background-color: #a6e3a1;
+}
+
+/*Top current download container, paused progress bar colour*/
+._1SyggnJY6qbRSmbZpkK3-H ._1vMU1vG5ZtLihr3mfXUymR._2XedpgsgZ3gMAUuPRtnfld div {
+    background-color: #fab387;
+}
+
+/*Top current download container, paused progress bar, percentage text colour*/
+._1SyggnJY6qbRSmbZpkK3-H .FuJLsEk_Umr68UjGanMno {
+    color: #cdd6f4;
+}
+
+/*Top current download container, paused progress bar, "Paused" text colour + font*/
+._1SyggnJY6qbRSmbZpkK3-H ._2ns4wnmgr4XBzARpwn2NZ1 ._3WavcSX0NkHlBh5fICWKyB {
+    color: #8b929a;
+    font-family: 'Modenine';
+}
+
+
+/*Top current download container, game downloading, border on hover colour*/
+._2sCvZTD6ZTZz3p9_ekH_gI:hover ._3B3J2qtE6ozU_VXMMN2L51 {
+    border-color: #cba6f7;
+}
+
+/*Top current download container, when dragging game over area, border colour*/
+._2m6Q3ca-wXeLIVShFCO51T ._2sCvZTD6ZTZz3p9_ekH_gI ._3B3J2qtE6ozU_VXMMN2L51 {
+    border-color: #cba6f7;
+}
+
+
+/*Top current download container, when downloading game, resume button style*/
+._1VNuYHM6BPBOJspC6zPf5r.IbePLaw-vSvhG1GTenYFg ._3oavRVhIS9tC3vBsFT4Ggi.DialogButton:enabled:hover, ._1VNuYHM6BPBOJspC6zPf5r.IbePLaw-vSvhG1GTenYFg ._3oavRVhIS9tC3vBsFT4Ggi.DialogButton:enabled:focus {
+    background: #cba6f7;
+    color: #585b70;
+}
+
+/*Top current download container, when downloading game, "resume" button on hover popup style*/
+._2FxbHJzYoH024ko7zqcJOf {
+    background: #f5c2e714;
+    font-family: 'Modenine';
+}
+
+/*Current downloading game, grab area symbol colour*/
+._1VNuYHM6BPBOJspC6zPf5r ._14DhZoqwtCm4l0yDeN6QZe {
+    color: #f5c2e7;
+}
+
+/*Top current download container, when downloading game, options button bg colour + colour*/
+._3Tfp8-wTAttW3WVa_X9JVC._3Tfp8-wTAttW3WVa_X9JVC, ._3Tfp8-wTAttW3WVa_X9JVC._3Tfp8-wTAttW3WVa_X9JVC:enabled, ._3Tfp8-wTAttW3WVa_X9JVC._3Tfp8-wTAttW3WVa_X9JVC:active, ._3Tfp8-wTAttW3WVa_X9JVC._3Tfp8-wTAttW3WVa_X9JVC:hover, ._3Tfp8-wTAttW3WVa_X9JVC._3Tfp8-wTAttW3WVa_X9JVC:enabled:active:hover, ._3Tfp8-wTAttW3WVa_X9JVC._3Tfp8-wTAttW3WVa_X9JVC.DialogButton:enabled {
+    background: transparent;
+    color: #cdd6f4;
+}
+
+/*Top current download container, when downloading game, options button bg colour + colour on hover*/
+._3Tfp8-wTAttW3WVa_X9JVC._3Tfp8-wTAttW3WVa_X9JVC._3Tfp8-wTAttW3WVa_X9JVC:hover {
+    background: transparent;
+    color: #f5c2e7;
+}
+
+/*Download now button on any game container*/
+._1VNuYHM6BPBOJspC6zPf5r ._3oavRVhIS9tC3vBsFT4Ggi, ._1VNuYHM6BPBOJspC6zPf5r ._3oavRVhIS9tC3vBsFT4Ggi:enabled, ._1VNuYHM6BPBOJspC6zPf5r ._3oavRVhIS9tC3vBsFT4Ggi:active, ._1VNuYHM6BPBOJspC6zPf5r ._3oavRVhIS9tC3vBsFT4Ggi:hover, ._1VNuYHM6BPBOJspC6zPf5r ._3oavRVhIS9tC3vBsFT4Ggi:enabled:active:hover, ._1VNuYHM6BPBOJspC6zPf5r ._3oavRVhIS9tC3vBsFT4Ggi.DialogButton:enabled {
+    background: transparent;
+    color: #cdd6f4;
+    transition: 0.2s;
+}
+
+
+
+/*Download now button on any game container on hover over game container*/
+._1VNuYHM6BPBOJspC6zPf5r:hover ._3oavRVhIS9tC3vBsFT4Ggi.DialogButton:enabled {
+    background: transparent;
+    color: #f5c2e7;
+}
+
+/*Download now button on any game container on hover over actual button*/
+._1VNuYHM6BPBOJspC6zPf5r:hover ._3oavRVhIS9tC3vBsFT4Ggi.DialogButton:enabled:hover {
+    background: transparent;
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+/*Scheduled downloads container game, transition speed*/
+._1VNuYHM6BPBOJspC6zPf5r {
+    transition: 0.1s;
+}
+
+/*Scheduled downloads container, game on hover*/
+._1VNuYHM6BPBOJspC6zPf5r:hover, ._1VNuYHM6BPBOJspC6zPf5r._3-SbBb63lDnu6LzKV-q3Cg {
+    background-color: #1e1e2e;
+    filter: brightness(1.1);
+    border-radius: 0px;
+}
+
+/*"Up Next" when dragging game, border highlight*/
+.OINnOU8K5HzPe2nzczpZi._2m6Q3ca-wXeLIVShFCO51T, .IbePLaw-vSvhG1GTenYFg .OINnOU8K5HzPe2nzczpZi._2m6Q3ca-wXeLIVShFCO51T:has(._3-SbBb63lDnu6LzKV-q3Cg) {
+    border: 2px dashed #cba6f7;
+}
+
+/*"Up Next" container when dragging game over "Up Next container", border highlight*/
+.OINnOU8K5HzPe2nzczpZi._2m6Q3ca-wXeLIVShFCO51T.d9VKGABvFZQGmdqtaicMo, .IbePLaw-vSvhG1GTenYFg .OINnOU8K5HzPe2nzczpZi._2m6Q3ca-wXeLIVShFCO51T.d9VKGABvFZQGmdqtaicMo:has(._3-SbBb63lDnu6LzKV-q3Cg) {
+    border: 2px solid #cba6f7;
+    background: transparent;
+}
+
+
+/*Games list categories font*/
+.qq2xItSXjpCsNrcxyPJtO {
+    font-family: Modenine;
+    color: #cdd6f4;
+}
+
+/*Games list, game name font + colour*/
+._1VNuYHM6BPBOJspC6zPf5r ._35eOQ6EeVHNV5HGBrJ1-Vu {
+    font-family: Modenine;
+    color: #cdd6f4;
+}
+
+/*Games list, "Clear All" button font + colour*/
+._1GdR5LbENV7LOGROJBxohI._1GdR5LbENV7LOGROJBxohI.DialogButton:enabled {
+    font-family: Modenine;
+    color: #cdd6f4;
+    transition: 0.2s;
+}
+
+._1GdR5LbENV7LOGROJBxohI._1GdR5LbENV7LOGROJBxohI:hover.DialogButton:enabled {
+    background: transparent;
+    color: #f5c2e7;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+
+/*Game with patch notes attached, patch notes button text colour*/
+._3kXEpnxa2qb5znYMSbKT0p ._1nCT-M7nZcoNzedbVzbXha {
+    font-family: Modenine;
+    color: #f5c2e7;
+}
+
+/*Game with patch notes attached, patch notes button symbol colour*/
+._3kXEpnxa2qb5znYMSbKT0p .-OgRzXqfwOvAWFZS3Rk_N {
+    filter: brightness(0) saturate(100%) invert(88%) sepia(21%) saturate(769%) hue-rotate(281deg) brightness(101%) contrast(92%);
+}
+
+/*CSS for steam downloads tab ENDS HERE================================================*/
+/*=====================================================================================*/
+/*=====================================================================================*/
