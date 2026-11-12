@@ -79,6 +79,62 @@ body {
     display: none;
 }
 
+/*Footer "Manage Downloads" button text colour*/
+.ip-YZhijAMZcuRoXBGiye ._3wJnTtcTLEp0R7eQj_mK8Y {
+    color: #6c7086;
+}
+
+/*Footer "Manage Downloads" button icon colour*/
+.ip-YZhijAMZcuRoXBGiye ._1KrJ3sFAqPBN9mfpaNTU5F {
+    color: #6c7086;
+}
+
+/*Footer "Manage Downloads" button colour on hover*/
+.ip-YZhijAMZcuRoXBGiye:hover ._1KrJ3sFAqPBN9mfpaNTU5F, .ip-YZhijAMZcuRoXBGiye:hover ._3wJnTtcTLEp0R7eQj_mK8Y {
+    color: #f5e0dc;
+}
+
+/*Footer "Add a Game" button icon colour"*/
+._2foCkpRXhqq0UGVE50BWqj ._1KrJ3sFAqPBN9mfpaNTU5F, ._1TdaAqMFadi0UTqilrkelR ._1KrJ3sFAqPBN9mfpaNTU5F {
+    color: #6c7086;
+}
+
+/*Footer "Add a Game" button text colour*/
+._2foCkpRXhqq0UGVE50BWqj ._3OhUxFVlQYr9W5ThxstR8k, ._1TdaAqMFadi0UTqilrkelR ._3OhUxFVlQYr9W5ThxstR8k {
+    color: #6c7086;
+}
+
+/*Footer "Add a Game" button icon colour on hover*/
+._2foCkpRXhqq0UGVE50BWqj:hover ._1KrJ3sFAqPBN9mfpaNTU5F {
+    color: #f5e0dc;
+}
+
+/*Footer "Add a Game" button text colour on hover*/
+._2foCkpRXhqq0UGVE50BWqj:hover ._3OhUxFVlQYr9W5ThxstR8k {
+    color: #f5e0dc;
+}
+
+/*Footer "Friends & Chat" button text colour*/
+._2foCkpRXhqq0UGVE50BWqj ._3OhUxFVlQYr9W5ThxstR8k, ._1TdaAqMFadi0UTqilrkelR ._3OhUxFVlQYr9W5ThxstR8k {
+    color: #6c7086;
+}
+
+/*Footer "Friends & Chat" button icon colour*/
+._2foCkpRXhqq0UGVE50BWqj ._1KrJ3sFAqPBN9mfpaNTU5F, ._1TdaAqMFadi0UTqilrkelR ._1KrJ3sFAqPBN9mfpaNTU5F {
+    color: #6c7086;
+}
+
+/*Footer "Friends & Chat" button text colour on hover*/
+._1TdaAqMFadi0UTqilrkelR:hover:not(._2Sdix9OOEHP6z_b4W2oaU9) ._3OhUxFVlQYr9W5ThxstR8k {
+    color: #f5e0dc;
+}
+
+/*Footer "Friends & Chat" button icon colour on hover*/
+._1TdaAqMFadi0UTqilrkelR:hover:not(._2Sdix9OOEHP6z_b4W2oaU9) ._1KrJ3sFAqPBN9mfpaNTU5F {
+    color: #f5e0dc;
+}
+
+
 /*CSS for global styles ENDS HERE======================================================*/
 /*=====================================================================================*/
 /*=====================================================================================*/
@@ -2622,6 +2678,11 @@ fill: #313244;
     color: #585b70;
 }
 
+/*Top current download container, when downloading game, "Estimated time left" text colour*/
+._2sCvZTD6ZTZz3p9_ekH_gI ._1r3ouwFT2-tsTAcnXYZ6NU ._3nx-k9xXUVgejG1BIAc84r {
+    color: #9399b2;
+}
+
 /*Current downloading game, grab area symbol colour*/
 ._1VNuYHM6BPBOJspC6zPf5r ._14DhZoqwtCm4l0yDeN6QZe {
     color: #f5c2e7;
@@ -2735,6 +2796,15 @@ fill: #313244;
     color: #9399b2;
 }
 
+/*"Auto updates enabled" button text colour*/
+._117rQTHH1RIewY7sSlvg3Z {
+    color: #9399b2
+}
+
+/*"Auto updates enabled" button text colour on hover*/
+._117rQTHH1RIewY7sSlvg3Z._2hSrM0aaC2uY2y83PI0NOr:hover ._34F9wkevkmNM4yJfpPQ0GL, ._117rQTHH1RIewY7sSlvg3Z._2hSrM0aaC2uY2y83PI0NOr:hover.Sil68-ocRzI8Xeloq3d7R {
+    color: #f5c2e7;
+}
 
 /*CSS for steam downloads tab ENDS HERE================================================*/
 /*=====================================================================================*/
