@@ -2616,6 +2616,12 @@ fill: #313244;
     font-family: 'Modenine';
 }
 
+/*Top current download container, when downloading game, "resume" button other stye?*/
+._1VNuYHM6BPBOJspC6zPf5r.IbePLaw-vSvhG1GTenYFg ._3oavRVhIS9tC3vBsFT4Ggi.DialogButton:enabled {
+    background: #cba6f7;
+    color: #585b70;
+}
+
 /*Current downloading game, grab area symbol colour*/
 ._1VNuYHM6BPBOJspC6zPf5r ._14DhZoqwtCm4l0yDeN6QZe {
     color: #f5c2e7;
@@ -2644,15 +2650,15 @@ fill: #313244;
 
 /*Download now button on any game container on hover over game container*/
 ._1VNuYHM6BPBOJspC6zPf5r:hover ._3oavRVhIS9tC3vBsFT4Ggi.DialogButton:enabled {
-    background: transparent;
-    color: #f5c2e7;
+    background: #cba6f7;
+    color: #585b70;
 }
 
 /*Download now button on any game container on hover over actual button*/
 ._1VNuYHM6BPBOJspC6zPf5r:hover ._3oavRVhIS9tC3vBsFT4Ggi.DialogButton:enabled:hover {
-    background: transparent;
-    transform: scale(1.2);
+    filter: brightness(0.8);
     transition: 0.2s;
+    background: #f38ba8;
 }
 
 /*Scheduled downloads container game, transition speed*/
@@ -2691,6 +2697,12 @@ fill: #313244;
     color: #cdd6f4;
 }
 
+/*Games list, "Remove From List" button position*/
+._1VNuYHM6BPBOJspC6zPf5r ._2ZfashhZu6uE9fCwyPS9mJ._2WEwEIAncE7-wa4Ye07a8x {
+    margin-right: 12px;
+}
+
+
 /*Games list, "Clear All" button font + colour*/
 ._1GdR5LbENV7LOGROJBxohI._1GdR5LbENV7LOGROJBxohI.DialogButton:enabled {
     font-family: Modenine;
@@ -2717,6 +2729,12 @@ fill: #313244;
 ._3kXEpnxa2qb5znYMSbKT0p .-OgRzXqfwOvAWFZS3Rk_N {
     filter: brightness(0) saturate(100%) invert(88%) sepia(21%) saturate(769%) hue-rotate(281deg) brightness(101%) contrast(92%);
 }
+
+/*"There are no downloads in the queue" text colour*/
+._1zv2D9H37p5yuOJNsCemS3 ._1nCT-M7nZcoNzedbVzbXha {
+    color: #9399b2;
+}
+
 
 /*CSS for steam downloads tab ENDS HERE================================================*/
 /*=====================================================================================*/
