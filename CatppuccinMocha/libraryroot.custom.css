@@ -2206,9 +2206,14 @@ div.HighPerfMode ._2l416KfEtI4CL0mCUEmOBw {
 
 /*Bigger article text*/
 div.SPYFj8pCLpNmnuQJEDobC, div.QuKtTJ4LCPUlQeWYfLNyX, div._3s7cUqglDds9wzcWb7OLz6, h1.SPYFj8pCLpNmnuQJEDobC, h2.QuKtTJ4LCPUlQeWYfLNyX, h3._3s7cUqglDds9wzcWb7OLz6 {
-    color: #cdd6f4;
-    filter: hue-rotate(61deg);
+    color: #f5c2e7;
 }
+
+/*Links in article text*/
+.A_A2B6fTn_MPLlGCmsLtd a:not(.LinkButton,.WidgetTag) {
+    color: #89dceb;
+}
+
 
 /*Top right buttons positioning*/
 ._2pA5CW91XQQDfo6yZEdPd- ._3yfs7fc5WEv6F9tPG4yq4g ._2tSyrRxMCRWK6K09JErgI_ {
